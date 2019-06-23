@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+}
+
+section, div{
+  padding:5%;
+}
+img{
+  max-width:100%;
+}
+[class*=banner]{
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  background-image: url(/images/placeholder1.jpg);
+}
+.banner-home{
+  background-image: url(/images/placeholder1.jpg);
+}
+
+/* Utility Classes */
