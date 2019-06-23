@@ -1,3 +1,4 @@
+/* CSS RESET */
 *{
   margin:0;
   padding:0;
@@ -10,7 +11,40 @@ section, div{
 }
 img{
   max-width:100%;
+  height: auto;
 }
+/* GENERAL HELPER CLASS */
+.tall{
+  min-height:100vh;
+}
+.med-height{
+  min-height:50vh;
+}
+.short{
+  min-height:30vh;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+.no-padding{
+padding: 0;
+}
+.light-bg{
+  background-color: rgb(245,245,245);
+}
+.dark-bg{
+  background-color: rgb(60,60,60);
+}
+.feat-bg{
+  background-color:rgb(244,222,203);
+}
+
 [class*=banner]{
   background-position: center;
   background-size: cover;
