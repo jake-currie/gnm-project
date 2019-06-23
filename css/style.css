@@ -42,7 +42,35 @@ padding: 0;
   background-color: rgb(60,60,60);
 }
 .feat-bg{
-  background-color:rgb(244,222,203);
+  background-color:#f4e9e0;
+}
+.white{
+  background-color: rgba(245,245,245,0.5);
+}
+.button{
+  border: 2px solid rgb(60,60,60);
+  color:rgb(60,60,60);
+  text-decoration: none;
+  display: inline-block;
+  padding: 2% 5%;
+}
+.button:hover{
+  border:2px solid #FF934F;
+  background-color: #FF934F;
+  color:white;
+}
+
+/* Typeography */
+body{
+  font-family: nunito;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: montserrat;
+  color:rgb(60,60,60);
+}
+a{
+  text-decoration: none;
+  color:rgb(60,60,60);
 }
 
 [class*=banner]{
@@ -52,14 +80,13 @@ padding: 0;
   background-image: url(/images/placeholder1.jpg);
 }
 .banner-home{
-  background-image: url(/images/placeholder1.jpg);
+  background-image: url(/images/sunrise.jpg);
 }
 .banner-casestudy{
   background-image: url(/images/placeholder2.jpg);
   min-height: 60vh;
 }
 .logo{
-  max-width: 50%;
 }
 /* Utility Classes */
 .left{
@@ -72,4 +99,11 @@ padding: 0;
   padding-bottom: 50%;
   background-size: cover;
   background-position: center;
+}
+/* padding */
+.padded{
+  padding: 5%
+}
+.padded1{
+  padding:1rem;
 }
