@@ -20,6 +20,10 @@ img{
 .banner-home{
   background-image: url(/images/placeholder1.jpg);
 }
+.banner-casestudy{
+  background-image: url(/images/placeholder2.jpg);
+  min-height: 60vh;
+}
 .logo{
   max-width: 50%;
 }
@@ -29,4 +33,9 @@ img{
 }
 .right{
   text-align: right;
+}
+.bg-image{
+  padding-bottom: 50%;
+  background-size: cover;
+  background-position: center;
 }
