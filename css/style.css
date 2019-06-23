@@ -20,5 +20,13 @@ img{
 .banner-home{
   background-image: url(/images/placeholder1.jpg);
 }
-
+.logo{
+  max-width: 50%;
+}
 /* Utility Classes */
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
