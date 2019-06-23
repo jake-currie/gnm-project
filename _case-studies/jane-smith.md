@@ -1,5 +1,5 @@
 ---
 layout: case-study-layout
 title: Jane Smith
-presentation: has a sore shoulder
+presentation_html: has a sore shoulder
 ---
