@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <!-- THIS IS THE HEAD SECTION -->
-  <head>
-    <!-- THIS IS FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
-    <!-- THIS IS GRIDLEX -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-    <!-- FONT: Permanent Marker -->
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <!-- THIS IS THE CSS STYLE SHEET -->
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <!-- THIS IS THE BODY SECTION -->
-  <body>
-    <!-- THIS IS THE MAIN HEADER SECTION -->
-    <header class='grid'>
-      <div class='col-4_sm-6 logo'>
-        <img src="/images/logo1.png" alt="">
+<!-- THIS IS THE HEAD SECTION -->
+
+<head>
+  <!-- THIS IS FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+  <!-- THIS IS GRIDLEX -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <!-- FONT: Permanent Marker -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <!-- THIS IS THE CSS STYLE SHEET -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<!-- THIS IS THE BODY SECTION -->
+
+<body>
+  <!-- THIS IS THE MAIN HEADER SECTION -->
+  <header class='grid-middle'>
+    <div class='col-4_sm-6 logo padded-1'>
+      <img src="/images/logo1.png" alt="">
+    </div>
+
+    <!-- hamburger menu -->
+    <nav class='col-8_sm-6-middle right'>
+      <div class="button padded">
+        <a href="#"> Book Consult </a>
       </div>
-      <nav class='col-8-middle_sm-12 right'>
-        <a href="#"> about</a>
-        <a href="#"> German New Medicine</a>
-        <a href="#"> Case Studies</a>
-        <a href="#"> Work with me </a>
-        <a href="#"> Blog </a>
-        <a href="#" class='button'> Book Discovery Call </a>
-      </nav>
-    </header>
-    {{content}}
-    <!-- FOOTER SECTION -->
-    <footer class='grid feat-bg'>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <nav class="mobile-nav">
+      SHOW ON CLICK and add links here
+    </nav>
+
+  </header>
+  {{content}}
+  <!-- FOOTER SECTION -->
+  <footer class='feat-bg'>
+    <div class='grid'>
       <div class="col-4_sm-12">
         <img src="/images/logo1.png" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -40,6 +51,16 @@
         <a href="#"> Pricing </a>
         <a href="#"> Book Now </a>
       </div>
-    </footer>
-  </body>
+    </div>
+    <div class='copyright padded'>
+      <h4>website build by me </h4>
+    </div>
+    <!-- Add javascript scripts here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src='/scripts/main.js'>
+    </script>
+  </footer>
+</body>
+
 </html>

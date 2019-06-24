@@ -1,109 +1,159 @@
 /* CSS RESET */
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  border: 2px solid grey;
+  /* border: 1px solid rgb(240, 240, 240); */
 }
-
-section, div{
-  padding:5%;
+/* Gridlex Reset */
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin:0;
 }
-img{
-  max-width:100%;
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+img {
+  max-width: 100%;
   height: auto;
 }
+.logo img{
+  width:200px;
+}
+
 /* GENERAL HELPER CLASS */
-.tall{
-  min-height:100vh;
-}
-.med-height{
-  min-height:50vh;
-}
-.short{
-  min-height:30vh;
-}
-.left{
-  text-align: left;
-}
-.right{
-  text-align: right;
-}
-.center{
-  text-align: center;
-}
-.no-padding{
-padding: 0;
-}
-.light-bg{
-  background-color: rgb(245,245,245);
-}
-.dark-bg{
-  background-color: rgb(60,60,60);
-}
-.feat-bg{
-  background-color:#f4e9e0;
-}
-.white{
-  background-color: rgba(245,245,245,0.5);
-}
-.button{
-  border: 2px solid rgb(60,60,60);
-  color:rgb(60,60,60);
+.tall       {  min-height: 100vh; }
+.med-height { min-height: 50vh;   }
+.short      {  min-height: 30vh;  }
+
+.left      { text-align: left;      }
+.right     {  text-align: right;    }
+.center    {  text-align: center;   }
+
+.padded     { padding: 5%;}
+.padded-1   { padding: 1rem;}
+.no-padding { padding: 0; }
+
+/* backgrounds */
+.light-bg   {background-color: rgb(245, 245, 245);}
+.dark-bg    {background-color: rgb(60, 60, 60);}
+.feat-bg    {background-color: #f4e9e0;}
+.white      {background-color: rgba(245, 245, 245, 0.5);}
+
+.button {
+  border: 2px solid rgb(60, 60, 60);
+  color: rgb(60, 60, 60);
   text-decoration: none;
   display: inline-block;
-  padding: 2% 5%;
-}
-.button:hover{
-  border:2px solid #FF934F;
-  background-color: #FF934F;
-  color:white;
+  padding: 1% 5%;
 }
 
+.button:hover {
+  border: 2px solid #FF934F;
+  background-color: #FF934F;
+  color: white;
+}
+
+
+section{
+  padding:5%;
+}
 /* Typeography */
-body{
+body {
   font-family: nunito;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1, h2, h3, h4, h5, h6 {
   font-family: montserrat;
-  color:rgb(60,60,60);
-}
-a{
-  text-decoration: none;
-  color:rgb(60,60,60);
+  color: rgb(60, 60, 60);
 }
 
-[class*=banner]{
+a {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+}
+
+[class*=banner] {
   background-position: center;
   background-size: cover;
   min-height: 80vh;
   background-image: url(/images/placeholder1.jpg);
 }
-.banner-home{
+
+.banner-home {
   background-image: url(/images/sunrise.jpg);
 }
-.banner-casestudy{
+
+.banner-casestudy {
   background-image: url(/images/placeholder2.jpg);
   min-height: 60vh;
 }
-.logo{
+
+.logo {
+  width:200px;
 }
+
 /* Utility Classes */
-.left{
-  text-align: left;
-}
-.right{
-  text-align: right;
-}
-.bg-image{
+.left     {text-align: left;  }
+.right    {text-align: right; }
+.center   {tex-align:center;  }
+
+.bg-image {
   padding-bottom: 50%;
   background-size: cover;
   background-position: center;
 }
-/* padding */
-.padded{
-  padding: 5%
+
+
+
+.copyright {
+  background-color: black;
+  color: white;
 }
-.padded1{
+
+
+.mobile-show {
+  display: none;
+}
+
+.line {
+  border: 2px solid black;
+  width: 25px;
+  margin: 2px;
+  display: block;
+  padding: 0;
+  border-radius: 2px;
+}
+.hamburger {
+  display: inline-block;
+  padding: 0.5rem;
+  z-index: 3;
+  position: relative; /* adding this so we can use z-index */
+}
+
+.active .line {
+  border-color: white;
+}
+
+header nav .button {
+  display: inline-block;
+  vertical-align:top;
+}
+
+.mobile-nav{
+  background-color: grey;
+  padding:10%;
+  display:none;
+  position: absolute;
+  top:0;
+  left:50%;
+  bottom:0;
+  right:0;
+}
+.mobile-nav a{
+  color:white;
   padding:1rem;
+  display:block;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  transition: 1s;
 }
