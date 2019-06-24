@@ -2,77 +2,125 @@
 layout: default
 ---
 <!-- BANNER -->
-<section class='grid-center banner' style='  background-image: url(/images/{{page.banner-image}});'
+<section class='grid-center banner' style='background-image: url(/images/{{page.banner-image}});'
+  <div class='col-5 center'>
 
-  <div class="col-5">
-    <h1>{{page.title}} </h1>
-    <h2>A german new medicine perspective </h2>
+  <div class="col-5 center">
+    <h1> {{page.title}} </h1>
+    <h2> {{page.excerpt_html}} </h2>
+  </div>
   </div>
 </section>
-<!-- WHO? -->
-<section class='grid'>
+
+<!-- THE PATIENT -->
+<section class='grid light-bg'>
   <div class="col-4">
-    <h2> The Client </h2>
+    <h2> The Patient </h2>
   </div>
   <div class="col-8">
-    <p> {{72 year old Right handed female, presented with shoulder pain 1 year in duration. </p>
+    <p>  {{page.patient-description_html}}</p>
   </div>
 </section>
-<!-- THE PROBLEM -->
+
+<!-- SUBJECTIVE COMPLAINT-->
 <section class='grid'>
   <div class="col-4">
-    <h2>The Problem</h2>
+    <h2> Subjective Complaint </h2>
   </div>
   <div class="col-8">
-    <p> {{page.presentation}} </p>
+    <p> {{page.subjective-complaint_html}} </p>
   </div>
 </section>
-<!-- THE THREE POINTS -->
+
+<!-- OBJECTIVE FINDINGS-->
+<section class='grid light-bg'>
+  <div class="col-4">
+    <h2> Objective Findings </h2>
+  </div>
+  <div class="col-8">
+    <p> {{page.objective-findings_html}} </p>
+  </div>
+</section>
+
+<!-- CALIBRATION-->
 <section class='grid'>
-  <div class="col-4_sm-12">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
-    <h3> GNM Conflict</h3>
-    <p>This is where we describe the GNM conflict </p>
+  <div class="col-4">
+    <h2> Calibration </h2>
   </div>
-  <div class="col-4_sm-12">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
-    <h3> Organs Involved </h3>
-    <p>Which germ layers are involved? </p>
-  </div>
-  <div class="col-4_sm-12">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
-    <h3> Callibration</h3>
-    <p> The patient presented with this... </p>
+  <div class="col-8">
+    <p> {{page.calibration_html}} </p>
   </div>
 </section>
-<!-- HOW WE HELPED SECTION -->
+
+<!-- GNM Explaination-->
+<section class='light-bg center'>
+  <div>
+    <h2> GNM Explaination </h2>
+  </div>
+  <div>
+    <p> {{page.explaination_html}}</p>
+  </div>
+</section>
+
+<!-- HOW GNM HELPED -->
+<section class='center feat-bg'>
+  <div>
+    <h2> The GNM Understanding </h2>
+  </div>
+</section>
+
+<!-- Creating Awareness -->
 <section class='grid'>
-  <div class="col-12-center">
-  <h2>How German New Medicine Helped </h2>
+  <div class="col-4">
+    <h2> Creating Awareness </h2>
+  </div>
+  <div class="col-8">
+    <p>  {{page.awareness_html}} </p>
   </div>
 </section>
-<!-- CREATING AWARENESS (THERAPY) -->
+
+<!-- Breaking Assoications -->
+<section class='light-bg'>
+  <div>
+    <h2> Breaking Associations </h2>
+  </div>
+  <div>
+    <p> {{page.associations_html}} </p>
+  </div>
+</section>
+
+<!-- Changing Perspective -->
 <section class='grid'>
-  {% for point in page.points %}
-  <div class='col-6_sm-12'>
-    <img src="/images/{{point.image}}">
+  <div class="col-4">
+    <h2> Changing Perspective </h2>
   </div>
-  <div class='col-6_sm-12'>
-    <h2> {{point.title}}</h2>
-    <p>{{point.description}}</p>
-  </div>
-  {% endfor %}
-  </section>
-  <!-- RESULTS SECTION -->
-  <section>
-  <div class="col-8_sm-12">
-    <h2> The Results </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="col-8">
+    <p> {{page.perspective_html}}</p>
   </div>
 </section>
+
+<!-- The results -->
+<section class='feat-bg center'>
+  <div>
+    <h2> The results </h2>
+  </div>
+  <div>
+    <p>  {{page.results_html}}  </p>
+  </div>
+</section>
+
+<!-- Credits  -->
+<section class='grid'>
+  <div class="col-4">
+    <h2> Credits </h2>
+  </div>
+  <div class="col-8">
+    <p> {{page.credits_html}}</p>
+  </div>
+</section>
+
+
+
 <!-- BANNER CALL TO ACTION -->
 <section class='grid-center banner-home'>
 

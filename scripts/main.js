@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(".hamburger").click(function(){
 
     $('.hamburger').toggleClass('active');
-    $(".mobile-nav").slideToggle();
+    $(".mobile-nav").fadeToggle();
     });
 
 }); // end document ready

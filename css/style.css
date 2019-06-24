@@ -141,7 +141,7 @@ header nav .button {
 }
 
 .mobile-nav{
-  background-color: grey;
+  background-color: rgb(60, 60, 60);
   padding:10%;
   display:none;
   position: absolute;

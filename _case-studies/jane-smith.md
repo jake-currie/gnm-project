@@ -1,18 +1,22 @@
 ---
 layout: case-study-layout
 title: Jane Smith
-banner-image: header.jpg
 condition: Back Pain
-summary: this is a short blurb 
-points:
-- title: Created Awareness
-  description: Upon discussig the conflict involved, the client connect an event that happend 1 year ago. A friend of her grandaughters fell from the swing at their home and hurt her knee <strong>(HER DHS) </strong>
-  image: placeholder2.jpg
-- title:  Break Associations
-  description: The client realised that everytime she went into the garden where the accident happend, she felt her shoulder pain come back. Her new found awareness helped her to remove the stress assoicated with this track.  
-  image: placeholder.jpg
-- title: Change Perspective
-  description: The client was encouraged to change her perspective on the situation. She realised that it was not her fault and she did not need to feel guilty any longer.
-  image: placeholder2.jpg
+banner-image: header.jpg
+excerpt_html: How a 72 year old lady overcame 1 year of back pain with GNM.
+patient-description_html: 2 year old Right handed female, presented with shoulder pain 1 year in duration.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+subjective-complaint_html: The patient presented with a stiff and sore low back. 1 year in duration. She described the following.
+objective-findings_html: Limited Range of motion in the lumbar spine Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+calibration_html: The patient was a 5/10 pain. This pain was elicited by flexing forward from the hip.
+explaination_html: This is where we describe the type of conflcit involved with this particular condition; including what muscels it is acting on etc. Multiple areas in here. a link to the learninggnm site.
+awareness_html: 2 weeks previously the client had an expereince where she watched her grandaughter fall off the swing (her DHS) she immediately felt bad and fely like it was her fault.
+associations_html: The client realised that every time she walked out into the garden where the swing set is her pain returned. She was asked to make the connection between her symptims and the trigger.
+perspective_html:  The client was asked to change her perspective on the whole situation. Lorem ipsum dolor sit amet.  
+results_html: The client realised was amazing. A follow up visit the following week showed how she no longer was havong any issues.
+credits_html: This is where I give credit to hamer and GNM and link to the website.
 
+
+_comments:
+  - summary: this is blah
+  - note to self: Basically copy and past the green sections into a new .md file for each new case study and fill in the blanks.
 ---

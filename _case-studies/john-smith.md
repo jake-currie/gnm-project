@@ -2,7 +2,7 @@
 layout: case-study-layout
 title: John Smith
 banner-image: header.jpg
-condition: Knee Pain
+condition: Neck Pain
 summary: this is a short blurb
 points:
 - title: Created Awareness
