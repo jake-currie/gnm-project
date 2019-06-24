@@ -7,14 +7,14 @@ layout: default
   <div class="col-5_sm-12 padded white">
     <h2>Health from the inside out </h2>
     <h3>German new medicine, a new health perspective </h3>
-    <a href="#" class='button'>Book Discovery Call</a>
+    <a href="#" class='button'> Book Discovery Call </a>
   </div>
 </section>
 
 <!-- THIS IS THE WHY GNM SECTION -->
 <section class="grid">
   <div class="col-4_sm-12">
-    <h2>WHY GNM? </h2>
+    <h2> WHY GNM? </h2>
   </div>
   <div class='col-8_sm-12'>
     <h2>Why GNM IS A GAME CHANGER</h2>
@@ -24,11 +24,20 @@ layout: default
 </section>
 
 <!-- List of Conditions  -->
-<section>
-  {% for condition in site.conditions %}
-    <a href="{{condition.url}}">
-      {{ condition.title }}
-    </a>
+<section class='grid'>
+  {% for condition in site.conditions limit:4 %}
+  <div class="col-3">
+
+  <a href="{{condition.url}}">
+  <div class=" bg-image" style="background-image: url('/images{{ condition.image }}'">
+    <div class='col-3'>  <h2> {{ condition.title }} </h2>
+      <p>   {{ condition.excerpt }} </p>
+    </div>
+  </div>
+  </a>
+  </div>
+
+
   {% endfor %}
 </section>
 

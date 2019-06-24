@@ -59,7 +59,9 @@ section{
 }
 /* Typeography */
 body {
-  font-family: nunito;
+  font-family: montserrat;
+  letter-spacing: 2;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,13 +82,14 @@ a {
 }
 
 .banner-home {
-  background-image: url(/images/header.jpg);
+  background-image: url(/images/sunrise.jpg);
+  min-height: 90vh;
 }
 
 .banner{
   background-position: center;
   background-size: cover;
-  min-height: 60vh;
+  min-height: 80vh;
 }
 
 .logo {
@@ -103,8 +106,6 @@ a {
   background-size: cover;
   background-position: center;
 }
-
-
 
 .copyright {
   background-color: black;
@@ -146,10 +147,11 @@ header nav .button {
   display:none;
   position: absolute;
   top:0;
-  left:50%;
+  left:0%;
   bottom:0;
   right:0;
 }
+
 .mobile-nav a{
   color:white;
   padding:1rem;
@@ -157,4 +159,11 @@ header nav .button {
   text-decoration: none;
   border-bottom: 1px solid white;
   transition: 1s;
+
+}
+.mobile-nav a:hover{
+  color: orange;
+}
+.pain-grid{
+  border:2px solid grey;
 }
