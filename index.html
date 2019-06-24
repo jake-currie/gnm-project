@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- THIS IS THE BANNER SECTION -->
-<section class='grid-right banner-home padded'>
+<section class='grid-right banner-home padded '>
 
   <div class="col-5_sm-12 padded white">
     <h2>Health from the inside out </h2>
@@ -20,6 +20,14 @@ layout: default
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
       irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
   </div>
+</section>
+<!-- Simba sruff -->
+<section>
+  {% for condition in site.conditions %}
+    <a href="{{condition.url}}">
+      {{ condition.title }}
+    </a>
+  {% endfor %}
 </section>
 <!-- WHO IS GNM FOR -->
 <section class='grid feat-bg'>
