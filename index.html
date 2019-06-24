@@ -24,16 +24,20 @@ layout: default
 </section>
 
 <!-- List of Conditions  -->
-<section class='grid'>
+<section class='grid padded light-bg'>
+  <div class="col-12 padded center">
+  <h3> Conditions GNM Helps with </h3>
+  <p>Here are the current top 4 conditions I have worked with. This is just the tip of the iceburg, I help people overcome a whole host of physical problems. </p>
+  </div>
   {% for condition in site.conditions limit:4 %}
-  <div class="col-3">
+  <div class="col-3_m-6_sm-12 padded-1">
 
   <a href="{{condition.url}}">
   <div class=" bg-image" style="background-image: url('/images{{ condition.image }}'">
-    <div class='col-3'>  <h2> {{ condition.title }} </h2>
-      <p>   {{ condition.excerpt }} </p>
-    </div>
   </div>
+    <div class='col-3 center'>  <h2> {{ condition.title }} </h2>
+      <p class='left'> {{ condition.excerpt }} </p>
+    </div>
   </a>
   </div>
 
