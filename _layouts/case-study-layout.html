@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- BANNER -->
-<section class='grid-center banner-casestudy'>
+<section class='grid-center banner' style='  background-image: url(/images/{{page.banner-image}});'
 
   <div class="col-5">
     <h1>{{page.title}} </h1>
@@ -12,10 +12,10 @@ layout: default
 <!-- WHO? -->
 <section class='grid'>
   <div class="col-4">
-    <h2>Who? </h2>
+    <h2> The Client </h2>
   </div>
   <div class="col-8">
-    <p> 72 year old Right handed female, presented with shoulder pain 1 year in duration. </p>
+    <p> {{72 year old Right handed female, presented with shoulder pain 1 year in duration. </p>
   </div>
 </section>
 <!-- THE PROBLEM -->
@@ -54,31 +54,17 @@ layout: default
   <h2>How German New Medicine Helped </h2>
   </div>
 </section>
-<!-- CREATING AWARENESS -->
+<!-- CREATING AWARENESS (THERAPY) -->
 <section class='grid'>
+  {% for point in page.points %}
   <div class='col-6_sm-12'>
-    <img src="/images/placeholder2.jpg">
+    <img src="/images/{{point.image}}">
   </div>
   <div class='col-6_sm-12'>
-    <h2> Created Awareness </h2>
-    <p>Upon discussig the conflict involved, the client connect an event that happend 1 year ago. A friend of her grandaughters fell from the swing at their home and hurt her knee <strong>(HER DHS) </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h2> {{point.title}}</h2>
+    <p>{{point.description}}</p>
   </div>
-  <!-- BREAK ASSOCIATIONS -->
-  <div class='col-6_sm-12'>
-    <h2> Break Associations </h2>
-    <p> The client realised that everytime she went into the garden where the accident happend, she felt her shoulder pain come back. Her new found awareness helped her to remove the stress assoicated with this track.  </p>
-  </div>
-  <div class='col-6_sm-12'>
-    <img src="/images/placeholder1.jpg">
-  </div>
-  <!-- CHANGE PERSPECTIVE -->
-  <div class='col-6_sm-12'>
-    <img src="/images/placeholder.jpg">
-  </div>
-  <div class='col-6_sm-12'>
-    <h2> Change Perspective </h2>
-    <p>The client was encouraged to change her perspective on the situation. She realised that it was not her fault and she did not need to feel guilty any longer. </p>
-  </div>
+  {% endfor %}
   </section>
   <!-- RESULTS SECTION -->
   <section>

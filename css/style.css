@@ -80,11 +80,12 @@ a {
 }
 
 .banner-home {
-  background-image: url(/images/sunrise.jpg);
+  background-image: url(/images/header.jpg);
 }
 
-.banner-casestudy {
-  background-image: url(/images/placeholder2.jpg);
+.banner{
+  background-position: center;
+  background-size: cover;
   min-height: 60vh;
 }
 

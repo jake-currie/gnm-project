@@ -1,9 +1,9 @@
 ---
 layout: case-study-layout
-title: Jane Smith
+title: John Smith
 banner-image: header.jpg
-condition: Back Pain
-summary: this is a short blurb 
+condition: Knee Pain
+summary: this is a short blurb
 points:
 - title: Created Awareness
   description: Upon discussig the conflict involved, the client connect an event that happend 1 year ago. A friend of her grandaughters fell from the swing at their home and hurt her knee <strong>(HER DHS) </strong>

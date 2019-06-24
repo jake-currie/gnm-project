@@ -4,7 +4,6 @@ layout: default
 <!-- This is the banner section -->
 <!-- THIS IS THE BANNER SECTION -->
 <section class='grid-right banner  padded '>
-
   <div class="col-5_sm-12 padded white">
     <h2>Health from the inside out </h2>
     <h3>German new medicine, a new health perspective </h3>
@@ -14,40 +13,53 @@ layout: default
 <!-- KNEE PAIN OVERVIEW -->
 <section class="grid">
   <div class="col-4_sm-12">
-    <h2> German New Medicine perspective of Knee Pain </h2>
+    <h2> German New Medicine perspective of {{page.condition}} </h2>
   </div>
   <div class='col-8_sm-12'>
     <h2>Biological Conflict</h2>
-    <p> <strong>Competition conflicts, physical perfomrance self devaluation.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    {{page.conflict_html}}
   </div>
 </section>
-
 <!-- THREE SECTIONS -->
 <section class='grid feat-bg'>
   <div class="col-12 center">
-    <h2>Who is GNM for? </h2>
+    <h2> How can GNM Help? </h2>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
   </div>
 
   <div class="col-4_sm-12 center padded">
     <div class="bg-image" style="background-image: url('/images/universe.jpg')">
     </div>
-    <h3> Unexplained Pain </h3>
+    <h3> Creating Awareness </h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <a href="#" class='button'> Learn More </a>
+
   </div>
   <div class="col-4_sm-12 center padded">
     <div class="bg-image" style="background-image: url('/images/universe.jpg')">
     </div>
-    <h3> Better </h3>
+    <h3> Breaking Associations </h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <a href="#" class='button'> Learn More </a>
+
   </div>
   <div class="col-4_sm-12 center  padded">
     <div class="bg-image" style="background-image: url('/images/universe.jpg')">
     </div>
-    <h3> Best </h3>
+    <h3> Change Perspective </h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <a href="#" class='button'> Learn More </a>
   </div>
+</section>
+
+<!-- CASE STUDIES GO HERE -->
+<section>
+
+    <h2> {{page.condition}} Case Studies </h2>
+
+    {% assign related_case-studies = site.case-studies | where: "condition", page.condition %}
+    {% for item in related_case-studies %}
+
+    <a href="{{item.url}}"> {{item.title}}</a>
+    <p> {{item.summary}}</p>
+
+    {% endfor %}
+
 </section>
