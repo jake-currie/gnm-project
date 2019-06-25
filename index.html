@@ -1,24 +1,26 @@
 ---
 layout: default
+body-class: index
 ---
 <!-- THIS IS THE BANNER SECTION -->
-<section class='grid-right banner-home padded '>
+<section class='grid-right banner-home padded'>
 
-  <div class="col-6_sm-12 padded light-bg">
-    <h2 class="typing-heading bg-dark"> I help you to ...
+  <div class="col-6_sm-12-middle padded light-bg heading-box ">
+    <h2 class="typing-heading bg-dark padded-1"> I help you to <br>
       <span id="typed"></span>
     </h2>
+
 
     <div id="typed-strings">
       <span> Get out of pain </span>
       <span> Resolve emotional conflicts </span>
-      <span> Heal </span>
-      <span> Not fear symptoms </span>
+      <span> Heal from the inside out</span>
+      <span> Live life </span>
     </div>
 
-    <p>German new medicine helps you to resolve physical symptoms by addressing the emotional cause. </p>
+    <p> Using German New Medicine I help you connect emotional conflicts to resolve your physical symptoms </p>
 
-    <a href="#" class='button'> Book Discovery Call </a>
+    <a href="#" class='button'> Book Your Consult </a>
   </div>
 
 </section>
@@ -44,7 +46,7 @@ layout: default
 <!-- THIS IS THE WHY GNM SECTION -->
 <section class="grid padded">
   <div class="col-4_sm-12 padded">
-    <h2> WHY GNM?</h2>
+    <h2> A new health perspective </h2>
   </div>
   <div class='col-8_sm-12-middle'>
     <p> <strong>The connection between your mind and body is so important</strong> </p>
@@ -56,12 +58,23 @@ layout: default
 </section>
 
 <!-- List of Conditions  -->
-<section class='grid padded light-bg'>
-  <div class="col-12 center">
+<section class='grid center padded light-bg'>
+  <div class="col-12">
     <h2> Conditions I work with </h2>
-    <br>
+  </div>
+
+  <div class="col-2">
+
+  </div>
+
+  <div class="col-8 center padded-1">
     <p>GNM treats many conditions and pains. Here are the current top 4 conditions I have worked with. This is just the tip of the iceburg, I help people overcome a whole host of physical problems. </p>
   </div>
+
+  <div class="col-2">
+
+  </div>
+
 
 
   {% for condition in site.conditions limit:4 %}
@@ -69,10 +82,10 @@ layout: default
 
     <a href="{{condition.url}}">
       <div class='col-3 center'>
-        <h2> {{ condition.title }} </h2>
+        <h3> {{ condition.title }} </h3>
         <div class=" bg-image" style="background-image: url('/images{{ condition.image }}'">
         </div>
-        <p class='left'> {{ condition.excerpt }} </p>
+        <p class='center'> {{ condition.excerpt }} </p>
       </div>
     </a>
   </div>
@@ -82,15 +95,15 @@ layout: default
 </section>
 
 <!-- THIS IS THE ABOUT JAKE SECTION -->
-<section class='grid'>
+<section class='grid no-padding'>
   <div class='col-6_sm-12 bg-image'style="background-image: url('/images/fsc.jpg')">
   </div>
   <div class='col-6_sm-12 padded dark-bg'>
-  <h2 class='center padded-1'>About Jake</h2>
+  <h2 class='padded-1'> About Me </h2>
     <p><strong> I understand you </strong></p>
     <p>Living with unexplained pain, or symptoms that simply won't go away is what started me on my GNM journey. </p>
     <p> I had grown my practice in Noosa from scratch to capacity within a year, the beauity of this is working with lots of people. More and more I noticed that peoples physical symptoms were not physical at all. I was frusted with why some patients got great results and some patients never seemed to get better, desipite all my best efforts. </p>
-    <p> <strong>The day I found GNM Everything changed. </</strong></p>
+    <p> <strong>The day I found GNM Everything changed. </strong></p>
     <p>I now was able to see the emotional causes of people problems, and help them move through it effortlessly. </p>
     <a href='#' class='button-1'> Read more </a>
   </div>
@@ -110,8 +123,8 @@ layout: default
 
 <!-- THIS IS THE HOW GNM WORKS (CONFLICT SHOCK)-->
 <section class="grid">
-  <div class="col-4_sm-12 padded-1">
-    <div class="card">
+  <div class="col-4_sm-12 padded-1 card-1">
+    <div class="card-1 padded-1 ">
     <h2> "The Cause" </h2>
     <h3>Unexpected Conflict Shock</h3>
     <p>A highly acute, unexpected biological conflict shock hits the psyche. These conflicts are completely subject and act on the subconscious mind. From an evolutionary perspective, these conflicts threaten our survival. </p>
@@ -121,8 +134,8 @@ layout: default
 
 <!-- THIS IS THE HOW GNM WORKS (SBS)-->
 
-  <div class="col-4_sm-12 padded-1">
-    <div class="card">
+  <div class="col-4_sm-12 padded-1 card-2">
+    <div class="card-2 padded-1">
 
 
     <h2> "The Adaptation" </h2>
@@ -134,10 +147,10 @@ layout: default
 
 
 <!-- THIS IS THE HOW GNM WORKS (HEALING)-->
-  <div class="col-4_sm-12 padded-1">
-    <div class="card">
+  <div class="col-4_sm-12 padded-1 card-3">
+    <div class="card-3 padded-1">
 
-    <h2> "The Healing Phase" </h2>
+    <h2> "The Healing" </h2>
     <h3> The body returns to homoestatsis </h3>
     <p>Once the biological conflict has resolved, the adaptations made by the body are no longer required. In its return to homoestatis the body removes the biological adaptations. This process is where most healing criss symptoms are occuring.   </p>
   </div>
@@ -163,23 +176,23 @@ layout: default
 <!-- INTRO TO THERAPY -->
 <section class='grid padded light-bg'>
 <div class="col-12 center">
-<h2> How do I help you heal? </h2>
+<h2> How can I help you heal? </h2>
 <p> Using German New Medicine and the understanding Dr Hammer created I help you make the connection between your mind and body. Through coaching and help we can help you resolve both your physical symptoms and the emotional cause.  </p>
 </div>
 </section>
 <!-- HOW THE THERAPY WORKS MODULE 1 -->
-<section class='grid'>
+<section class='grid no-padding'>
   <div class='col-6_sm-12 bg-image-2' style="background-image: url('/images/placeholder2.jpg')">
   </div>
   <div class='col-6_sm-12 dark-bg padded'>
-    <h2 class='center'>Step 1 - Creating Awareness</h2>
+    <h2 class='center'> Step 1 - Create Awareness</h2>
     <p> The first step to resolving physical symptoms and problems is to become aware of the emotional conflicts that created the changes.</p> <p> In our 1-on-1 session I will help you to connect the dots between your physical symptoms and the emotional cause. </p>
     <p>This is the most important stage in taking the fear away from your symptoms and helping you heal naturally. </p>
   </div>
 </section>
 
 <!-- HOW THE THERAPY WORKS MODULE 2 -->
-<section class='grid section'>
+<section class='grid section no-padding'>
   <div class='col-6_sm-12 dark-bg padded'>
     <h2 class='center'> Step 2 - Break Associations </h2>
     <p> Once you are aware of the mind-body connection creating your issues, it is important to remove any tracks or triggers. </p>
@@ -192,7 +205,7 @@ layout: default
 </section>
 
 <!-- HOW THE THERAPY WORKS MODULE 3 -->
-<section class='grid'>
+<section class='grid no-padding'>
   <div class='col-6_sm-12 bg-image-2' style="background-image: url('/images/header1.jpg')">
   </div>
 
@@ -210,11 +223,4 @@ layout: default
     <p class='padded-1'> Book a consult so you can discover the emotional cause of your physical symtpoms and live a great life.  </p>
     <a href="#"class='button padded-1'> Book Call</a>
   </div>
-</section>
-
-
-<!-- CONTACT SECTION -->
-<section>
-  <h2>Contact form goes here </h2>
-  <a href="#">submit button</a>
 </section>

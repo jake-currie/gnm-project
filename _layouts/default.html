@@ -5,6 +5,8 @@
 <head>
   <!-- THIS IS FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
+<!-- /WhatsHelp.io widget -->
   <!-- THIS IS GRIDLEX -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
   <!-- FONT: Permanent Marker -->
@@ -14,11 +16,11 @@
 </head>
 <!-- THIS IS THE BODY SECTION -->
 
-<body>
+<body class='{{page.body-class}}'>
   <!-- THIS IS THE MAIN HEADER SECTION -->
   <header class='grid-middle'>
     <div class='col-4_sm-6 logo padded-1'>
-      <a href="/index.html">
+      <a href="/">
       <img src="/images/logo1.png">
       </a>
     </div>
@@ -35,11 +37,11 @@
       </div>
     </nav>
     <nav class="mobile-nav">
-      <a href="/index.html"> Home </a>
-      <a href="/conditions"> About </a>
-      <a href="#"> Work With Me </a>
+      <a href="/"> Home </a>
+      <a href="/about"> About </a>
+      <a href="/work-with-me"> Work With Me </a>
       <a href="/case-studies"> Case Studies </a>
-      <a href="/conditions.html"> Conditions </a>
+      <a href="/conditions"> Conditions </a>
       <a href="#"> Book Consult </a>
     </nav>
 
@@ -48,22 +50,45 @@
   <!-- FOOTER SECTION -->
   <footer class='feat-bg grid padded'>
       <div class="col-4_sm-12 ">
-        <img src="/images/logo1.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <img class='logo' src="/images/logo1.png" alt="">
+        <p> </p>
       </div>
       <div class="col-8_sm-12 right">
-        <a href="#"> About </a>
-        <a href="#"> Case </a>
-        <a href="#"> Pricing </a>
-        <a href="#"> Book Now </a>
+        <a href="/about"> About | </a>
+        <a href="/case-studies"> Case Studies | </a>
+        <a href="/conditions"> Coditions | </a>
+        <a href="/work-with-me"> Work with me | </a>
+        <a href="#"> Book Now | </a>
+      </div>
+
+      <div class='col-12 right social'>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
       </div>
     </footer>
 
-  <div class='copyright padded'>
-    <h4>website build by me </h4>
+<section class='no-padding'>
+  <div class='copyright center padded-1'>
+    <p> © Dr Jake Currie 2019 | Website built by me <a href='https://www.findandseacreative.com'> Find + Sea Creative </a> </p>
   </div>
+  </section>
 
     <!-- Add javascript scripts here -->
+    <!-- WhatsHelp.io widget -->
+  <script type="text/javascript">
+      (function () {
+          var options = {
+              email: "jake@findandseacreative.com", // Email
+              call_to_action: "Message us", // Call to action
+              position: "right", // Position may be 'right' or 'left'
+          };
+          var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+  </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js">

@@ -5,6 +5,13 @@
   box-sizing: border-box;
   /* border: 1px solid rgb(240, 240, 240); */
 }
+
+@font-face {
+  font-family: "Rockness";
+  src: url("../fonts/Rockness.woff");
+}
+
+
 /* Gridlex Reset */
 [class*=grid-], [class*=grid_], [class~=grid] {
   margin:0;
@@ -44,6 +51,7 @@ color: white;}
   border: 2px solid rgb(60, 60, 60);
   color: rgb(60, 60, 60);
   text-decoration: none;
+  letter-spacing: 2px;
   display: inline-block;
   padding: 1% 5%;
 }
@@ -66,8 +74,9 @@ color: white;}
 }
 
 section{
-  /* padding:5%; */
+  padding:5%;
 }
+
 /* Typeography */
 body {
   font-family: montserrat;
@@ -75,14 +84,15 @@ body {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: montserrat;
+ h2 {
+  font-family: "Rockness";
   margin-bottom:1rem;
+  font-weight: normal;
+  font-size: 3rem;
 }
 
-p{
+p {
   line-height: 1.5;
-  letter-spacing: 1px;
   margin-bottom: 1rem;
 }
 a {
@@ -98,7 +108,7 @@ a {
 }
 
 .banner-home {
-  background-image: url(/images/sunrise.jpg);
+  background-image: url(/images/jake-headshot.jpg);
   min-height: 90vh;
   background-attachment: fixed;
 }
@@ -169,6 +179,18 @@ header nav .button {
   display: inline-block;
   vertical-align:top;
 }
+.index header {
+  background-image: url(/images/jake-headshot.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+/* TRANSPARENT BACKGROUND INFO .about is pulling from the front matter on the about.html. In order to create a transparent nav bar we need to add the background-image url to the cooresponding image on the about page. Or anyother page. eg. .work-with-me header{ background-image: url(............)}; */
+.about header {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 
 .mobile-nav{
   background-color: rgb(60, 60, 60);
@@ -217,4 +239,35 @@ h2.typing-heading {
 .bracket{
   font-size: 10rem;
   color: grey;
+}
+.heading-box{
+  min-height: 400px;
+}
+.card-1{
+  background-color: #eedfcc;
+  color:rgb(60, 60, 60);
+}
+.card-2{
+  background-color: #e5cbb0;
+  color:wrgb(60, 60, 60);
+}
+.card-3{
+  background-color: #d1a16e;
+  color: rgb(60, 60, 60);
+}
+.prices{
+  background-color: #eedfcc;
+  color: rgb(60, 60, 60);
+  border: 1px solid rgb(60, 60, 60);
+}
+.border-bottom{
+  border-bottom: 1px solid rgb(60, 60, 60);
+  padding-left: 20%;
+  padding-right:20%;
+}
+.social{
+  font-size: 2rem;
+}
+.social  :hover {
+  color: orange;
 }
