@@ -16,51 +16,60 @@ layout: default
     <h2> German New Medicine perspective of {{page.condition}} </h2>
   </div>
   <div class='col-8_sm-12'>
-    <h2>Biological Conflict</h2>
+    <h2>Biological Conflict of {{page.condition}}</h2>
     {{page.conflict_html}}
+    <a href="#" class='button'> Learning GNM </a>
+    <a href="#" class='button-1'> Book a Consult </a>
   </div>
 </section>
 
 <!-- THREE SECTIONS -->
-<section class='grid feat-bg'>
+<section class='grid light-bg'>
   <div class="col-12 center editable">
     <h2> How can GNM Help? </h2>
-    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
+    <p>German New Medicine, developed by Dr Hamer shows the link between an unexpected emotional conflicts and physical symptoms. <br><br> By understanding the emotional cause of symptoms as an GNM practitioner I am able to help guide you making the connection between your physical symptoms and the emotional cause.  </p>
   </div>
 
   <div class="col-4_sm-12 center padded">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
+    <!-- <div class="bg-image" style="background-image: url('/images/idea.svg')">
+    </div> -->
+    <img src="/images/idea.svg" class='icon'>
     <h3 class="editable"> Creating Awareness </h3>
-    <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
+    <p class="editable"> The first stage in allowing the body to heal is to create an awareness of the connection between the biological conflict and your symptoms. Often this stage along is enough to see progress. </p>
   </div>
+
   <div class="col-4_sm-12 center padded">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
+      <img src="/images/reminder.svg" class='icon'>
     <h3 class="editable"> Breaking Associations </h3>
-    <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
+    <p class="editable"> When the inital conflict occurs our subconscious mind goes to work taking note of everything we see, hear, smell, taste and touch. It is perparing to protect us. From a biological perspective, if we expereinced a territorial conflict when we went to a watering hole, our brain will perpare us for battle when we go there next. </p>
   </div>
+
   <div class="col-4_sm-12 center  padded">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
+    <img src="/images/thinking.svg" class='icon'>
     <h3 class="editable"> Change Perspective </h3>
-    <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <p class="editable"> Without awarenesss of the link between your physical symptoms and the emotional conflicts it is difficult to think differently. German New Medicine invites you to change the way you think not only about the initial conflict but also the healing symptoms. </p>
   </div>
 </section>
 
 <!-- CASE STUDIES GO HERE -->
-<section>
+<section class='grid'>
 
-    <h2> {{page.condition}} Case Studies </h2>
+
+    <h2 class='col-12 center'> {{page.condition}} Case Studies </h2>
 
     {% assign related_case-studies = site.case-studies | where: "condition", page.condition %}
     {% for item in related_case-studies %}
-
-    <a href="{{item.url}}"> {{item.title}}</a>
-    <p> {{item.summary}}</p>
+    {% include case-study-card.html %}
 
     {% endfor %}
+</section>
+
+<!-- CALL TO ACTION SECTION  -->
+<section class='banner center'>
+  <div class="col-5-right padded">
+    <h2 class='padded-1'> Do you need help with {{page.condition}}? </h2>
+    <p class='padded-1'> Book your free 20 minute discovery call to see how I can help you resolve emotional conflicts </p>
+    <a href="#"class='button padded-1'> Book Discovery Call</a>
+  </div>
 
 </section>

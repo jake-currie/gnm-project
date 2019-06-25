@@ -4,20 +4,49 @@ layout: default
 <!-- THIS IS THE BANNER SECTION -->
 <section class='grid-right banner-home padded '>
 
-  <div class="col-5_sm-12 padded white">
-    <h2>Health from the inside out </h2>
-    <h3>German new medicine, a new health perspective </h3>
+  <div class="col-6_sm-12 padded highlight">
+    <h2 class="typing-heading"> I help you to ...
+      <span id="typed"></span>
+    </h2>
+
+    <div id="typed-strings">
+      <span> Get out of pain </span>
+      <span> Resolve emotional conflicts </span>
+      <span> Heal </span>
+      <span> Not fear symptoms </span>
+    </div>
+
+    <p>German new medicine helps you to resolve physical symptoms by addressing the emotional cause. </p>
+
     <a href="#" class='button'> Book Discovery Call </a>
   </div>
+
+</section>
+
+<!-- HOW I HELP  -->
+<section class='grid-center feat-bg'>
+  <div class="col-2 bracket right">
+    <p>{</p>
+  </div>
+
+  <div class='col-8-middle padded quote center'>
+    <h2> Your body has an amazing ability to heal </h2>
+    <br>
+    <p> “What quantum physics teaches us is that everything we thought was physical is not physical.” <br> Dr. Bruce Lipton </p>
+  </div>
+
+  <div class="col-2 bracket left">
+    <p>}</p>
+  </div>
+
 </section>
 
 <!-- THIS IS THE WHY GNM SECTION -->
 <section class="grid">
-  <div class="col-4_sm-12">
-    <h2> WHY GNM? </h2>
+  <div class="col-4_sm-12 right padded">
+    <h2> Why GNM is a game changer </h2>
   </div>
-  <div class='col-8_sm-12'>
-    <h2>Why GNM IS A GAME CHANGER</h2>
+  <div class='col-8_sm-12-middle'>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
       irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
   </div>
@@ -26,61 +55,38 @@ layout: default
 <!-- List of Conditions  -->
 <section class='grid padded light-bg'>
   <div class="col-12 padded center">
-  <h3> Conditions GNM Helps with </h3>
-  <p>Here are the current top 4 conditions I have worked with. This is just the tip of the iceburg, I help people overcome a whole host of physical problems. </p>
+    <h2> Conditions I work with </h2>
+    <br>
+    <p>GNM treats many conditions and pains. Here are the current top 4 conditions I have worked with. This is just the tip of the iceburg, I help people overcome a whole host of physical problems. </p>
   </div>
+
+
   {% for condition in site.conditions limit:4 %}
   <div class="col-3_m-6_sm-12 padded-1">
 
-  <a href="{{condition.url}}">
-  <div class=" bg-image" style="background-image: url('/images{{ condition.image }}'">
-  </div>
-    <div class='col-3 center'>  <h2> {{ condition.title }} </h2>
-      <p class='left'> {{ condition.excerpt }} </p>
-    </div>
-  </a>
+    <a href="{{condition.url}}">
+      <div class='col-3 center'>
+        <h2> {{ condition.title }} </h2>
+        <div class=" bg-image" style="background-image: url('/images{{ condition.image }}'">
+        </div>
+        <p class='left'> {{ condition.excerpt }} </p>
+      </div>
+    </a>
   </div>
 
 
   {% endfor %}
 </section>
 
-<!-- WHO IS GNM FOR -->
-<section class='grid feat-bg'>
-  <div class="col-12 center">
-    <h2>Who is GNM for? </h2>
-  </div>
-
-  <div class="col-4_sm-12 center padded">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
-    <h3> Unexplained Pain </h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <a href="#" class='button'> Learn More </a>
-  </div>
-  <div class="col-4_sm-12 center padded">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
-    <h3> Better </h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <a href="#" class='button'> Learn More </a>
-  </div>
-  <div class="col-4_sm-12 center  padded">
-    <div class="bg-image" style="background-image: url('/images/universe.jpg')">
-    </div>
-    <h3> Best </h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <a href="#" class='button'> Learn More </a>
-  </div>
-</section>
-
 <!-- THIS IS THE ABOUT JAKE SECTION -->
 <section class='grid'>
-  <div class='col-6_sm-12'>
-    <img src="/images/placeholder.jpg">
+  <div class="col-12 center padded">
+    <h2>About Jake</h2>
   </div>
-  <div class='col-6_sm-12'>
-    <h2>about jake</h2>
+  <div class='col-4_sm-12 profile'style="background-image: url('/images/fsc.jpg')">
+  </div>
+  <div class='col-8_sm-12 padded-1'>
+
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
       irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
   </div>
@@ -172,10 +178,13 @@ layout: default
 </section>
 
 <!-- BANNER CALL TO ACTION SECTION -->
-<section>
-  <h2>Lets work together</h2>
-  <h3> Book your free 20 minute discovery call to see if I can help </h3>
-  <a href="#"> Book Discovery Call</a>
+<section class='banner'>
+  <div class="col-5-right">
+    <h2>Lets work together</h2>
+    <h3> Book your free 20 minute discovery call to see if I can help </h3>
+    <a href="#" class='button'> Book Discovery Call</a>
+  </div>
+
 </section>
 
 <!-- CONTACT SECTION -->

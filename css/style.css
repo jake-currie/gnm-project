@@ -35,7 +35,8 @@ img {
 
 /* backgrounds */
 .light-bg   {background-color: rgb(245, 245, 245);}
-.dark-bg    {background-color: rgb(60, 60, 60);}
+.dark-bg    {background-color: rgb(60, 60, 60);
+color: white;}
 .feat-bg    {background-color: #f4e9e0;}
 .white      {background-color: rgba(245, 245, 245, 0.5);}
 
@@ -46,13 +47,23 @@ img {
   display: inline-block;
   padding: 1% 5%;
 }
-
+.button-1 {
+  border: 2px solid rgb(60, 60, 60);
+  color: rgb(60, 60, 60);
+  text-decoration: none;
+  display: inline-block;
+  padding: 1% 5%;
+}
 .button:hover {
   border: 2px solid #FF934F;
   background-color: #FF934F;
   color: white;
 }
-
+.button-1:hover {
+  border: 2px solid #f4e9e0;
+  background-color: #f4e9e0;
+  color: white;
+}
 
 section{
   padding:5%;
@@ -66,7 +77,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: montserrat;
-  color: rgb(60, 60, 60);
 }
 
 a {
@@ -106,6 +116,12 @@ a {
   background-size: cover;
   background-position: center;
 }
+.profile{
+  padding-bottom: 50%;
+  background-size: cover;
+  background-position: center;
+  min-height:60vh;
+}
 
 .copyright {
   background-color: black;
@@ -118,9 +134,9 @@ a {
 }
 
 .line {
-  border: 2px solid black;
+  border: 1px solid black;
   width: 25px;
-  margin: 2px;
+  margin: 5px;
   display: block;
   padding: 0;
   border-radius: 2px;
@@ -166,4 +182,23 @@ header nav .button {
 }
 .pain-grid{
   border:2px solid grey;
+}
+.icon{
+  max-height: 150px;
+  margin: 2rem;
+
+}
+h2.typing-heading {
+    min-height: 3rem;
+}
+.highlight{
+  background-color: white;
+
+}
+.quote{
+
+}
+.bracket{
+  font-size: 10rem;
+  color: grey;
 }

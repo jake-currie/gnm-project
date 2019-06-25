@@ -119,8 +119,6 @@ layout: default
   </div>
 </section>
 
-
-
 <!-- BANNER CALL TO ACTION -->
 <section class='grid-center banner-home'>
 
@@ -129,4 +127,11 @@ layout: default
     <h3> Book your free 20 minute discovery session to see how German New Medicine can help you </h3>
     <a href="#">Book Discovery Call</a>
   </div>
+</section>
+<!-- WANT MORE CASE STUDIES -->
+<section class='grid'>
+  {% assign more_case_studies = site.case-studies | where: "condition", page.condition | filter: "title", page.title %}
+  {% for item in more_case_studies %}
+  {% include case-study-card.html %}
+  {% endfor %}
 </section>
