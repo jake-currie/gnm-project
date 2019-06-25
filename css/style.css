@@ -48,11 +48,11 @@ color: white;}
   padding: 1% 5%;
 }
 .button-1 {
-  border: 2px solid rgb(60, 60, 60);
-  color: rgb(60, 60, 60);
+  border: 2px solid white;
+  color: white;
   text-decoration: none;
   display: inline-block;
-  padding: 1% 5%;
+  padding: 2% 5%;
 }
 .button:hover {
   border: 2px solid #FF934F;
@@ -62,11 +62,11 @@ color: white;}
 .button-1:hover {
   border: 2px solid #f4e9e0;
   background-color: #f4e9e0;
-  color: white;
+  color:rgb(60, 60, 60);
 }
 
 section{
-  padding:5%;
+  /* padding:5%; */
 }
 /* Typeography */
 body {
@@ -77,8 +77,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: montserrat;
+  margin-bottom:1rem;
 }
 
+p{
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
 a {
   text-decoration: none;
   color: rgb(60, 60, 60);
@@ -94,6 +100,7 @@ a {
 .banner-home {
   background-image: url(/images/sunrise.jpg);
   min-height: 90vh;
+  background-attachment: fixed;
 }
 
 .banner{
@@ -115,6 +122,12 @@ a {
   padding-bottom: 50%;
   background-size: cover;
   background-position: center;
+}
+.bg-image-2{
+  background-size: cover;
+  background-position: center;
+  min-height:50vh;
+}
 }
 .profile{
   padding-bottom: 50%;
@@ -195,7 +208,10 @@ h2.typing-heading {
   background-color: white;
 
 }
-.quote{
+.card{
+  padding:1rem;
+  background-color: rgb(60, 60, 60);
+  color: white;
 
 }
 .bracket{
