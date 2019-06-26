@@ -13,7 +13,7 @@ layout: default
 <!-- THE PATIENT -->
 <section class='grid border-bottom'>
   <div class="col-4">
-    <h2> The Patient </h2>
+    <h3 class='blog'> The Patient </h3>
   </div>
   <div class="col-8">
     <p>  {{page.patient-description_html}}</p>
@@ -23,7 +23,7 @@ layout: default
 <!-- SUBJECTIVE COMPLAINT-->
 <section class='grid border-bottom'>
   <div class="col-4">
-    <h2> Subjective Complaint </h2>
+    <h3 class='blog'> Subjective Complaint </h3>
   </div>
   <div class="col-8">
     <p> {{page.subjective-complaint_html}} </p>
@@ -33,7 +33,7 @@ layout: default
 <!-- OBJECTIVE FINDINGS-->
 <section class='grid border-bottom'>
   <div class="col-4">
-    <h2> Objective Findings </h2>
+    <h3 class='blog'> Objective Findings </h3>
   </div>
   <div class="col-8">
     <p> {{page.objective-findings_html}} </p>
@@ -43,7 +43,7 @@ layout: default
 <!-- CALIBRATION-->
 <section class='grid border-bottom'>
   <div class="col-4">
-    <h2> Calibration </h2>
+    <h3 class='blog'> Calibration </h3>
   </div>
   <div class="col-8">
     <p> {{page.calibration_html}} </p>
@@ -70,7 +70,7 @@ layout: default
 <!-- Creating Awareness -->
 <section class='grid border-bottom'>
   <div class="col-4_sm-12">
-    <h2> Creating Awareness </h2>
+    <h3 class='blog'> Creating Awareness </h3>
   </div>
   <div class="col-8">
     <p>  {{page.awareness_html}} </p>
@@ -80,7 +80,7 @@ layout: default
 <!-- Breaking Assoications -->
 <section class='grid border-bottom'>
   <div class='col-4_sm-12'>
-    <h2> Breaking Associations </h2>
+    <h3 class='blog'> Breaking Associations </h3>
   </div>
   <div class='col-8_sm-12'>
     <p> {{page.associations_html}} </p>
@@ -90,7 +90,7 @@ layout: default
 <!-- Changing Perspective -->
 <section class='grid border-bottom'>
   <div class="col-4">
-    <h2> Changing Perspective </h2>
+    <h3 class='blog'> Changing Perspective </h3>
   </div>
   <div class="col-8">
     <p> {{page.perspective_html}}</p>
@@ -110,7 +110,7 @@ layout: default
 <!-- Credits  -->
 <section class='grid border-bottom'>
   <div class="col-4">
-    <h2> Credits </h2>
+    <h3 class='blog'> Credits </h3>
   </div>
   <div class="col-8">
     <p> {{page.credits_html}}</p>
@@ -118,14 +118,14 @@ layout: default
 </section>
 
 <!-- BANNER CALL TO ACTION -->
-<section class='grid-center banner-home'>
-
-  <div class="col-5">
-    <h2>Work with me </h2>
-    <h3> Book your free 20 minute discovery session to see how German New Medicine can help you </h3>
-    <a href="#" class='button'>Book Discovery Call</a>
+<section class='banner center'>
+  <div class="col-5-right padded">
+    <h2> Work with me </h2>
+    <p class='padded-1'> Book a consult so you can discover the emotional cause of your physical symtpoms and live a great life.  </p>
+    <a href="#"class='button padded-1'> Book Call</a>
   </div>
 </section>
+
 <!-- WANT MORE CASE STUDIES -->
 <section class='grid'>
   {% assign more_case_studies = site.case-studies | where: "condition", page.condition | filter: "title", page.title %}

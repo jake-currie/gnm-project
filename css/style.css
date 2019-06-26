@@ -261,13 +261,20 @@ h2.typing-heading {
   border: 1px solid rgb(60, 60, 60);
 }
 .border-bottom{
-  border-bottom: 1px solid rgb(60, 60, 60);
+  border-bottom: 1px solid rgb(240, 240, 240); 
   padding-left: 20%;
-  padding-right:20%;
+  padding-right:10%;
 }
 .social{
   font-size: 2rem;
 }
 .social  :hover {
   color: orange;
+}
+.blog {
+  font-size: 1.8rem;
+  padding-right: 2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-align: left;
 }
