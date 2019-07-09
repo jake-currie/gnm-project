@@ -34,7 +34,7 @@ body-class: index
   <div class='col-8-middle padded quote center'>
     <h2> Your body has an amazing ability to heal </h2>
     <br>
-    <p> “What quantum physics teaches us is that everything we thought was physical is not physical.” - <strong>Dr. Bruce Liptonn</strong> </p>
+    <p> “What quantum physics teaches us is that everything we thought was physical is not physical.” - <strong>Dr. Bruce Lipton</strong> </p>
   </div>
 
   <div class="col-2 bracket left">
@@ -68,29 +68,21 @@ body-class: index
   </div>
 
   <div class="col-8 center padded-1">
-    <p>GNM treats many conditions and pains. Here are the current top 4 conditions I have worked with. This is just the tip of the iceburg, I help people overcome a whole host of physical problems. </p>
+    <p>GNM treats many conditions and pains. Here are the current top 4 conditions I have worked with. This is just the tip of the iceberg, I help people overcome a whole host of physical problems. </p>
   </div>
 
   <div class="col-2">
-
   </div>
 
-
-
   {% for condition in site.conditions limit:4 %}
-  <div class="col-3_m-6_sm-12 padded-1">
-
+  <div class="col-3_m-6_sm-12">
     <a href="{{condition.url}}">
       <div class='col-3 center'>
+        <img src="/images/{{ condition.image }}" class='condition-icon'alt="">
         <h3> {{ condition.title }} </h3>
-        <div class=" bg-image" style="background-image: url('/images{{ condition.image }}'">
-        </div>
-        <p class='center'> {{ condition.excerpt }} </p>
       </div>
     </a>
   </div>
-
-
   {% endfor %}
 </section>
 
@@ -177,7 +169,7 @@ body-class: index
 <section class='grid padded light-bg'>
 <div class="col-12 center">
 <h2> How can I help you heal? </h2>
-<p> Using German New Medicine and the understanding Dr Hammer created I help you make the connection between your mind and body. Through coaching and help we can help you resolve both your physical symptoms and the emotional cause.  </p>
+<p> Using German New Medicine and the understanding Dr Hammer created I will help you make the connection between your mind and body. Through one on one coaching, I can help you resolve both your physical symptoms and the emotional cause.  </p>
 </div>
 </section>
 <!-- HOW THE THERAPY WORKS MODULE 1 -->
@@ -206,7 +198,7 @@ body-class: index
 
 <!-- HOW THE THERAPY WORKS MODULE 3 -->
 <section class='grid no-padding'>
-  <div class='col-6_sm-12 bg-image-2' style="background-image: url('/images/header1.jpg')">
+  <div class='col-6_sm-12 bg-image-2' style="background-image: url('/images/traintracks.jpg')">
   </div>
 
   <div class='col-6_sm-12 padded dark-bg'>
@@ -217,10 +209,12 @@ body-class: index
 </section>
 
 <!-- BANNER CALL TO ACTION SECTION -->
-<section class='banner center'>
-  <div class="col-5-right padded">
+<section class='center' style="background-image: url('/images/header1.jpg')">
+
+    <div class="col-5-right padded">
     <h2> Work with me </h2>
     <p class='padded-1'> Book a consult so you can discover the emotional cause of your physical symtpoms and live a great life.  </p>
   {% include book-button.html %}
   </div>
+
 </section>

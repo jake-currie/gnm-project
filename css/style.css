@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid rgb(240, 240, 240); */
+  border: 1px solid rgb(240, 240, 240);
 }
 
 @font-face {
@@ -119,6 +119,13 @@ a {
   background-size: cover;
   min-height: 80vh;
 }
+.ctabanner {
+  background-image: url(/images/ioc1.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+
+}
 
 .logo {
   width:200px;
@@ -220,10 +227,16 @@ header nav .button {
   border:2px solid grey;
 }
 .icon{
-  max-height: 150px;
+  max-height: 100px;
   margin: 2rem;
-
 }
+.condition-icon{
+  max-height:150px;
+}
+.condition-icon:hover {
+box-shadow: (10px,10px,5px,0px,0.14);
+}
+
 h2.typing-heading {
     min-height: 3rem;
 }
@@ -250,7 +263,7 @@ h2.typing-heading {
 }
 .card-2{
   background-color: #e5cbb0;
-  color:wrgb(60, 60, 60);
+  color:rgb(60, 60, 60);
 }
 .card-3{
   background-color: #d1a16e;
@@ -273,10 +286,10 @@ h2.typing-heading {
   color: orange;
 }
 .blog {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   padding-right: 2rem;
   letter-spacing: 2px;
-  font-weight: normal;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -285,4 +298,9 @@ h2.typing-heading {
   header{
     background-image: none!important;
   }
+.mobile-hide {
+display: none;
 }
+
+}
+/* END MEDIA QUERY */
