@@ -1,7 +1,7 @@
 ---
 layout: case-study-layout
 title: John Smith
-banner-image: header.jpg
+banner-image: header1.jpg
 condition: Neck Pain
 summary: this is a short blurb
 points:

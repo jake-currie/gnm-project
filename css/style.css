@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgb(240, 240, 240);
+  /* border: 1px solid rgb(240, 240, 240); */
 }
 
 @font-face {
@@ -27,7 +27,14 @@ img {
 .logo img{
   width:200px;
 }
-
+ul{
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+}
+li{
+  padding-bottom: 0.5rem;
+}
 /* GENERAL HELPER CLASS */
 .tall       {  min-height: 100vh; }
 .med-height { min-height: 50vh;   }
@@ -115,6 +122,7 @@ a {
 }
 
 .banner{
+  background-image: url(/images/header5.jpg);
   background-position: center;
   background-size: cover;
   min-height: 80vh;
