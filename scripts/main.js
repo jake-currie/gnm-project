@@ -13,7 +13,7 @@ var typed = new Typed('#typed', {
 	stringsElement: '#typed-strings',
 	loop: true,
    loopCount: Infinity,
-	typeSpeed: 80
+	typeSpeed: 50
 });
 
 }); // end document ready

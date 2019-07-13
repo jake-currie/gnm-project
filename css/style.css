@@ -70,6 +70,32 @@ color: white;}
   display: inline-block;
   padding: 2% 5%;
 }
+.button-2 {
+  border: 2px solid #FF934F;
+  color: white;
+  background-color:#FF934F;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2% 5%;
+}
+.button-3 {
+  border: 2px solid #FF934F;
+  color: #FF934F;
+  background-color:white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1% 5%;
+}
+.button-2:hover {
+  border: 2px solid #FF934F;
+  background-color: white;
+  color:#FF934F;
+}
+.button-3:hover {
+  border: 2px solid #FF934F;
+  background-color:  #FF934F;
+  color:white;
+}
 .button:hover {
   border: 2px solid #FF934F;
   background-color: #FF934F;
@@ -87,9 +113,9 @@ section{
 
 /* Typeography */
 body {
-  font-family: montserrat;
-  letter-spacing: 2;
-
+  font-family: nunito;
+  font-weight:300;
+  letter-spacing: 1.5;
 }
 
  h2 {
@@ -106,6 +132,9 @@ p {
 a {
   text-decoration: none;
   color: rgb(60, 60, 60);
+  font-family: nunito;
+  font-weight:300;
+  letter-spacing: 2;
 }
 
 [class*=banner] {
@@ -116,7 +145,7 @@ a {
 }
 
 .banner-home {
-  background-image: url(/images/jake-headshot.jpg);
+  background-image: url(/images/header6.jpg);
   min-height: 90vh;
   background-attachment: fixed;
 }
@@ -183,7 +212,7 @@ a {
 .hamburger {
   display: inline-block;
   padding: 0.5rem;
-  z-index: 3;
+  z-index: 2;
   position: relative; /* adding this so we can use z-index */
 }
 
@@ -196,10 +225,13 @@ header nav .button {
   vertical-align:top;
 }
 .index header {
-  background-image: url(/images/jake-headshot.jpg);
+  background-image: url(/images/header6.jpg);
   background-attachment: fixed;
+  background-color: white;
   background-position: center;
   background-size: cover;
+  max-height: 80px;
+
 }
 /* TRANSPARENT BACKGROUND INFO .about is pulling from the front matter on the about.html. In order to create a transparent nav bar we need to add the background-image url to the cooresponding image on the about page. Or anyother page. eg. .work-with-me header{ background-image: url(............)}; */
 .about header {
@@ -217,6 +249,9 @@ header nav .button {
   left:0%;
   bottom:0;
   right:0;
+}
+.footer, a:hover {
+  color: #FF934F;
 }
 
 .mobile-nav a{
@@ -264,6 +299,8 @@ h2.typing-heading {
 }
 .heading-box{
   min-height: 400px;
+  background-color: transparent;
+
 }
 .card-1{
   background-color: #eedfcc;
@@ -306,9 +343,18 @@ h2.typing-heading {
   header{
     background-image: none!important;
   }
-.mobile-hide {
-display: none;
+
+.heading-box {
+  min-height: 400px;
+
 }
+
+
+.navbutton {
+  display:none;
+}
+
+
 
 }
 /* END MEDIA QUERY */
