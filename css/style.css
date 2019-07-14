@@ -52,6 +52,7 @@ li{
 .light-bg   {background-color: rgb(245, 245, 245);}
 .dark-bg    {background-color: rgb(60, 60, 60);
 color: white;}
+.dark-bg a {color: white; border-bottom: 1px solid white;}
 .feat-bg    {background-color: #f4e9e0;}
 .white      {background-color: rgba(245, 245, 245, 0.5);}
 
