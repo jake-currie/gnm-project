@@ -106,7 +106,6 @@ color: white;}
   background-color: #f4e9e0;
   color:rgb(60, 60, 60);
 }
-
 section{
   padding:5%;
 }
@@ -117,14 +116,12 @@ body {
   font-weight:300;
   letter-spacing: 1.5;
 }
-
  h2 {
   font-family: "Rockness";
   margin-bottom:1rem;
   font-weight: normal;
   font-size: 3rem;
 }
-
 p {
   line-height: 1.5;
   margin-bottom: 1rem;
@@ -143,13 +140,11 @@ a {
   min-height: 80vh;
   background-image: url(/images/placeholder1.jpg);
 }
-
 .banner-home {
   background-image: url(/images/header6.jpg);
   min-height: 90vh;
   background-attachment: fixed;
 }
-
 .banner{
   background-image: url(/images/header5.jpg);
   background-position: center;
@@ -161,9 +156,7 @@ a {
   background-position: center;
   background-size: cover;
   min-height: 80vh;
-
 }
-
 .logo {
   width:200px;
 }
@@ -183,6 +176,11 @@ a {
   background-position: center;
   min-height:50vh;
 }
+.bg-image-case {
+  background-size: auto;
+  background-position: center;
+  max-height:50vh;
+}
 }
 .profile{
   padding-bottom: 50%;
@@ -190,17 +188,13 @@ a {
   background-position: center;
   min-height:60vh;
 }
-
 .copyright {
   background-color: black;
   color: white;
 }
-
-
 .mobile-show {
   display: none;
 }
-
 .line {
   border: 1px solid black;
   width: 25px;
@@ -321,8 +315,11 @@ h2.typing-heading {
 }
 .border-bottom{
   border-bottom: 1px solid rgb(240, 240, 240);
-  padding-left: 20%;
-  padding-right:10%;
+  text-align: left
+}
+.border-left {
+  border: 1px solid rgb(240, 240, 240);
+  padding: 2%;
 }
 .social{
   font-size: 2rem;
@@ -337,24 +334,29 @@ h2.typing-heading {
   font-weight: 600;
   text-align: left;
 }
+.innate {
+  color: white;
+}
 
 /* MEDIA Querty */
 @media(max-width: 768px){
   header{
     background-image: none!important;
   }
-
 .heading-box {
   min-height: 400px;
-
 }
-
-
 .navbutton {
   display:none;
 }
-
-
-
+.mobile-hide {
+  display: none;
+}
+.mobile-show {
+  display: block;
+}
+.mobile-center {
+  text-align: center;
+}
 }
 /* END MEDIA QUERY */

@@ -1,6 +1,6 @@
 ---
 layout: case-study-layout
-title: 41y/o Male with Knee Pain
+title: 41 year old male with knee pain
 condition: Knee Pain
 banner-image: casestudy2.jpg
 image: /images/casestudy3.jpg
@@ -9,12 +9,12 @@ patient-description_html: 2 year old Right handed female, presented with shoulde
 subjective-complaint_html: The patient presented with a stiff and sore low back. 1 year in duration. She described the following.
 objective-findings_html: Limited Range of motion in the lumbar spine Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 calibration_html: The patient was a 5/10 pain. This pain was elicited by flexing forward from the hip.
-explaination_html: This is where we describe the type of conflcit involved with this particular condition; including what muscels it is acting on etc. Multiple areas in here. a link to the learninggnm site.
-awareness_html: 2 weeks previously the client had an expereince where she watched her grandaughter fall off the swing (her DHS) she immediately felt bad and fely like it was her fault.
-associations_html: The client realised that every time she walked out into the garden where the swing set is her pain returned. She was asked to make the connection between her symptims and the trigger.
+explaination_html: This is where we describe the type of conflict involved with this particular condition; including what muscles it is acting on etc. Multiple areas in here. a link to the learning GNM site.
+awareness_html: 2 weeks previously the client had an experience where she watched her granddaughter fall off the swing (her DHS) she immediately felt bad and felt like it was her fault.
+associations_html: The client realised that every time she walked out into the garden where the swing set is her pain returned. She was asked to make the connection between her symptoms and the trigger.
 perspective_html:  The client was asked to change her perspective on the whole situation. Lorem ipsum dolor sit amet.  
-results_html: The client realised was amazing. A follow up visit the following week showed how she no longer was havong any issues.
-credits_html: This is where I give credit to hamer and GNM and link to the website.
+results_html: The client realised was amazing. A follow up visit the following week showed how she no longer was having any issues.
+credits_html: This is where I give credit to Hamer and GNM and link to the website.
 
 
 _comments:

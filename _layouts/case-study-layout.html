@@ -2,43 +2,33 @@
 layout: default
 ---
 <!-- BANNER -->
-
-  <div class="col-5 center padded">
-    <!-- <h1> {{page.title}} </h1> -->
+<!-- <section>
+  <div class="center">
     <h2> {{page.excerpt_html}} </h2>
   </div>
-  </div>
-</section>
+</section> -->
 
 <!-- THE PATIENT -->
-<section class='grid border-bottom'>
-  <div class="col-12">
-    <h4> Date:</h4>
-    <p> {{page.date}} </p>
-    <h3 class='blog'> The Patient </h3><br>
-    <p>  {{page.patient-description_html}}</p>
-  </div>
+<section class='grid border-bottom bg-image-case' style="background-image:url(' {{page.image}} ')">
 </section>
 
 <!-- SUBJECTIVE COMPLAINT-->
-<section class='grid border-bottom'>
+<section class='grid left'>
   <div class="col-12">
+    <h2> The Patient </h2><br>
+    <p class="border-bottom">  {{page.patient-description_html}}</p>
+  </div>
+  <div class="col-4_sm-12 border-left">
     <h3 class='blog'> Subjective Complaint </h3><br>
     <p> {{page.subjective-complaint_html}} </p>
   </div>
-</section>
-
-<!-- OBJECTIVE FINDINGS-->
-<section class='grid border-bottom'>
-  <div class="col-12">
+  <!-- OBJECTIVE FINDINGS-->
+  <div class="col-4_sm-12 border-left">
     <h3 class='blog'> Objective Findings </h3><br>
     <p> {{page.objective-findings_html}} </p>
   </div>
-</section>
-
-<!-- CALIBRATION-->
-<section class='grid border-bottom'>
-  <div class="col-12">
+  <!-- CALIBRATION-->
+  <div class="col-4_sm-12 border-left">
     <h3 class='blog'> Calibration </h3><br>
     <p> {{page.calibration_html}} </p>
   </div>
@@ -57,30 +47,36 @@ layout: default
 
 <!-- Creating Awareness -->
 <section class='grid border-bottom'>
-  <div class="col-12">
+  <div class="col-3_sm-12">
     <h3 class='blog'> Creating Awareness </h3><br>
+  </div>
+  <div class="col-9_sm-12">
     <p>  {{page.awareness_html}} </p>
   </div>
 </section>
 
 <!-- Breaking Assoications -->
 <section class='grid border-bottom'>
-  <div class='col-12'>
+  <div class='col-3_sm-12'>
     <h3 class='blog'> Breaking Associations </h3><br>
+  </div>
+  <div class="col-9_sm-12">
     <p> {{page.associations_html}} </p>
   </div>
 </section>
 
 <!-- Changing Perspective -->
 <section class='grid border-bottom'>
-  <div class="col-12">
+  <div class="col-3_sm-12">
     <h3 class='blog'> Changing Perspective </h3><br>
+  </div>
+  <div class="col-9_sm-12">
     <p> {{page.perspective_html}}</p>
   </div>
 </section>
 
 <!-- The results -->
-<section class='dark-bg border-bottom '>
+<section class='grid-middle dark-bg border-bottom '>
   <div>
     <h2> The results </h2><br>
   </div>
@@ -91,8 +87,10 @@ layout: default
 
 <!-- Credits  -->
 <section class='grid border-bottom'>
-  <div class="col-12">
+  <div class="col-3_sm-12">
     <h3 class='blog'> Credits </h3><br>
+  </div>
+  <div class="col-9_sm-12">
     <p> {{page.credits_html}}</p>
   </div>
 </section>

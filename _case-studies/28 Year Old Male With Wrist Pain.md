@@ -1,6 +1,6 @@
 ---
 layout: case-study-layout
-title: 28 Year old with wrist pain
+title: 28 year old with wrist pain
 condition: wrist pain
 banner-image:
 date: June 16th 2019
