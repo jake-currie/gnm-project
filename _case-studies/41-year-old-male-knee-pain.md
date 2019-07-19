@@ -9,7 +9,8 @@ patient-description_html: 2 year old Right handed female, presented with shoulde
 subjective-complaint_html: The patient presented with a stiff and sore low back. 1 year in duration. She described the following.
 objective-findings_html: Limited Range of motion in the lumbar spine Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 calibration_html: The patient was a 5/10 pain. This pain was elicited by flexing forward from the hip.
-explaination_html: This is where we describe the type of conflict involved with this particular condition; including what muscles it is acting on etc. Multiple areas in here. a link to the learning GNM site.
+explaination_html: This is where we describe the type of conflict involved with this particular condition; including what muscles it is acting on etc. Multiple areas in here. a link to the learning GNM site. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+organs_html: THe muscles of the right knee.
 awareness_html: 2 weeks previously the client had an experience where she watched her granddaughter fall off the swing (her DHS) she immediately felt bad and felt like it was her fault.
 associations_html: The client realised that every time she walked out into the garden where the swing set is her pain returned. She was asked to make the connection between her symptoms and the trigger.
 perspective_html:  The client was asked to change her perspective on the whole situation. Lorem ipsum dolor sit amet.  

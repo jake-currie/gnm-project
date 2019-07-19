@@ -146,6 +146,11 @@ a {
   min-height: 90vh;
   background-attachment: fixed;
 }
+.banner-mobile {
+  background-image: url(/images/placeholder1.jpg);
+  min-height: 90vh;
+  background-attachment: fixed;
+}
 .banner{
   background-image: url(/images/header5.jpg);
   background-position: center;
@@ -178,9 +183,11 @@ a {
   min-height:50vh;
 }
 .bg-image-case {
-  background-size: auto;
   background-position: center;
-  max-height:50vh;
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 }
 .profile{
@@ -353,11 +360,17 @@ h2.typing-heading {
 .mobile-hide {
   display: none;
 }
+.mobile-appear {
+  display: block;
+}
 .mobile-show {
   display: block;
 }
 .mobile-center {
   text-align: center;
+}
+.bg-image-case {
+  min-height: 50vh;
 }
 }
 /* END MEDIA QUERY */

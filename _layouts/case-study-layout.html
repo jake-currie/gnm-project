@@ -1,98 +1,96 @@
 ---
 layout: default
 ---
-<!-- BANNER -->
-<!-- <section>
-  <div class="center">
-    <h2> {{page.excerpt_html}} </h2>
-  </div>
-</section> -->
-
-<!-- THE PATIENT -->
-<section class='grid border-bottom bg-image-case' style="background-image:url(' {{page.image}} ')">
+<!-- Banner Image of the page  -->
+<section class='grid bg-image-case' style="background-image: url(' {{page.image}} ');">
 </section>
 
-<!-- SUBJECTIVE COMPLAINT-->
-<section class='grid left'>
-  <div class="col-12">
-    <h2> The Patient </h2><br>
-    <p class="border-bottom">  {{page.patient-description_html}}</p>
+<!-- The first text section -->
+<section class='grid'>
+  <div class="col-2">
   </div>
-  <div class="col-4_sm-12 border-left">
-    <h3 class='blog'> Subjective Complaint </h3><br>
-    <p> {{page.subjective-complaint_html}} </p>
-  </div>
-  <!-- OBJECTIVE FINDINGS-->
-  <div class="col-4_sm-12 border-left">
-    <h3 class='blog'> Objective Findings </h3><br>
-    <p> {{page.objective-findings_html}} </p>
-  </div>
-  <!-- CALIBRATION-->
-  <div class="col-4_sm-12 border-left">
-    <h3 class='blog'> Calibration </h3><br>
-    <p> {{page.calibration_html}} </p>
+  <div class="col-8_sm-12">
+    <h2>The patient: </h2>
+    <p> {{page.patient-description_html}}</p><br>
+    <h3>Subjective Complaint: </h3>
+    <p>{{page.subjective-complaint_html}}</p><br>
+    <h3> Objective Findings: </h3>
+    <p>{{page.objective-findings_html}}</p><br>
+    <h3> Calibration: </h3>
+    <p>{{page.calibration_html}} </p>
+
+    <div class="col-2">
+    </div>
   </div>
 </section>
 
-<!-- GNM Explaination-->
-<section class='dark-bg border-bottom'>
-  <div>
-    <h2> GNM Explaination </h2><br>
+  <!-- GERMAN NEW MEDICINE EXPLAINATION -->
+  <section class='grid'>
+    <div class="col-2">
+    </div>
+
+    <div class="col-8_sm-12 ">
+      <h2>The GNM explaination: </h2>
+      <p> {{page.explaination_html}} </p><br>
+      <h3> Organs Affected: </h3>
+      <p>{{page.organs_html}} </p>
+    </div>
+
+    <div class="col-2">
+    </div>
+
+  </section>
+
+<!-- GNM UNDERSTANDING  -->
+<section class='grid'>
+  <div class="col-2">
   </div>
-  <div>
-    <p> {{page.explanation_html}}</p>
+
+  <div class="col-8_sm-12">
+    <h2>The GNM Understanding: </h2>
+    <p> In order to help the body heal, it is important for the cliet to understand the original conflict shock, and how this conflict has created the symptoms as part of a meaning biological program. Moving forward, the client must remove any tracks or triggers and ultimately change their perspective on the situation. </p>
+    <h3>Creating Awareness: </h3>
+    <p>{{page.awareness_html}} </p>
+    <h3>Breaking Assoications: </h3>
+    <p>{{page.associations_html}} </p>
+    <h3> Changing Perspective: </h3>
+    <p>{{page.perspective_html}} </p>
   </div>
+
+  <div class="col-2">
+  </div>
+
+</section>
+
+<!-- THE RESULTS SECTION -->
+<section class='grid'>
+  <div class="col-2">
+  </div>
+  <div class="col-8_sm-12">
+    <h2>The Results: </h2>
+    <p> {{page.results_html}} </p>
+  </div>
+
+  <div class="col-2">
+  </div>
+
 </section>
 
 
-<!-- Creating Awareness -->
-<section class='grid border-bottom'>
-  <div class="col-3_sm-12">
-    <h3 class='blog'> Creating Awareness </h3><br>
+<!-- CREDITS  -->
+<section class='grid'>
+  <div class="col-2">
   </div>
-  <div class="col-9_sm-12">
-    <p>  {{page.awareness_html}} </p>
+
+  <div class="col-8_sm-12">
+<h2> Credits: </h2>
+<p> All credits go to Dr. Hamer and the Learning GNM team. For further clarification on this conflict and others visit the Learning GNM site.   </p>
+<a href="https://www.learninggnm.com" target="_blank" class='button'> Learning GNM </a>
   </div>
+
 </section>
 
-<!-- Breaking Assoications -->
-<section class='grid border-bottom'>
-  <div class='col-3_sm-12'>
-    <h3 class='blog'> Breaking Associations </h3><br>
-  </div>
-  <div class="col-9_sm-12">
-    <p> {{page.associations_html}} </p>
-  </div>
-</section>
 
-<!-- Changing Perspective -->
-<section class='grid border-bottom'>
-  <div class="col-3_sm-12">
-    <h3 class='blog'> Changing Perspective </h3><br>
-  </div>
-  <div class="col-9_sm-12">
-    <p> {{page.perspective_html}}</p>
-  </div>
-</section>
-
-<!-- The results -->
-<section class='grid-middle dark-bg border-bottom '>
-  <div>
-    <h2> The results </h2><br>
-  </div>
-  <div>
-    <p>  {{page.results_html}}  </p>
-  </div>
-</section>
-
-<!-- Credits  -->
-<section class='grid border-bottom'>
-  <div class="col-3_sm-12">
-    <h3 class='blog'> Credits </h3><br>
-  </div>
-  <div class="col-9_sm-12">
-    <p> {{page.credits_html}}</p>
-  </div>
 </section>
 
 <!-- BANNER CALL TO ACTION -->
