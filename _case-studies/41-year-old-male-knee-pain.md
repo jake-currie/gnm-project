@@ -6,6 +6,7 @@ banner-image: casestudy2.jpg
 image: /images/casestudy3.jpg
 <!-- excerpt_html: How a 72 year old lady overcame 1 year of back pain with GNM. -->
 patient-description_html: 2 year old Right handed female, presented with shoulder pain 1 year in duration.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+date_html: 18/9/2019
 subjective-complaint_html: The patient presented with a stiff and sore low back. 1 year in duration. She described the following.
 objective-findings_html: Limited Range of motion in the lumbar spine Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 calibration_html: The patient was a 5/10 pain. This pain was elicited by flexing forward from the hip.
