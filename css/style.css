@@ -52,60 +52,66 @@ li{
 .light-bg   {background-color: rgb(245, 245, 245);}
 .dark-bg    {background-color: rgb(60, 60, 60);
 color: white;}
-.dark-bg a {color: white; border-bottom: 1px solid white;}
+.dark-bg a {color: white;}
 .feat-bg    {background-color: #f4e9e0;}
 .white      {background-color: rgba(245, 245, 245, 0.5);}
+.footer-bg {color:rgb(60,60,60); background-image: url(/images/mobileheader.jpg);}
 
 .button {
-  border: 2px solid rgb(60, 60, 60);
-  color: rgb(60, 60, 60);
+  border: 2px solid #FF8C28;
+  font-weight: 600;
+  color: white;
+  background-color: #FF8C28;
   text-decoration: none;
   letter-spacing: 2px;
   display: inline-block;
   padding: 1% 5%;
 }
 .button-1 {
-  border: 2px solid white;
+  border: 2px solid #B6D6D6;
+  background-color: #B6D6D6;
   color: white;
   text-decoration: none;
   display: inline-block;
-  padding: 2% 5%;
+  padding: 1% 5%;
 }
 .button-2 {
-  border: 2px solid #FF934F;
+  border: 2px solid #FF8C28;
   color: white;
-  background-color:#FF934F;
+  background-color: #FF8C28;
   text-decoration: none;
   display: inline-block;
   padding: 2% 5%;
 }
 .button-3 {
-  border: 2px solid #FF934F;
-  color: #FF934F;
-  background-color:white;
+  border: 2px solid rgb(60,60,60);
+  color: rgb(60,60,60);
   text-decoration: none;
   display: inline-block;
   padding: 1% 5%;
+  vertical-align:top;
 }
 .button-2:hover {
-  border: 2px solid #FF934F;
+  border: 2px solid #B6D6D6;
   background-color: white;
-  color:#FF934F;
+  color:#B6D6D6;
+  display: inline-block;
+  padding: 2% 5%;
 }
 .button-3:hover {
-  border: 2px solid #FF934F;
-  background-color:  #FF934F;
+  border: 2px solid #B6D6D6;
+  background-color:  #B6D6D6;
   color:white;
 }
 .button:hover {
-  border: 2px solid #FF934F;
-  background-color: #FF934F;
+  border: 2px solid #B6D6D6;
+  background-color: #B6D6D6;
   color: white;
 }
 .button-1:hover {
-  border: 2px solid #f4e9e0;
-  background-color: #f4e9e0;
-  color:rgb(60, 60, 60);
+  border: 2px solid #B6D6D6;
+  background-color: #B6D6D6;
+  color:white;
 }
 section{
   padding:5%;
@@ -152,7 +158,8 @@ a {
   background-attachment: fixed;
 }
 .banner{
-  background-image: url(/images/header5.jpg);
+  background-image: url(/images/header8.jpg);
+  color:white;
   background-position: center;
   background-size: cover;
   min-height: 80vh;
@@ -253,7 +260,7 @@ header nav .button {
   right:0;
 }
 .footer, a:hover {
-  color: #FF934F;
+  color: #B6D6D6;
 }
 
 .mobile-nav a{
@@ -266,7 +273,7 @@ header nav .button {
 
 }
 .mobile-nav a:hover{
-  color: orange;
+  color: #B6D6D6;
 }
 .pain-grid{
   border:2px solid grey;
@@ -333,7 +340,7 @@ h2.typing-heading {
   font-size: 2rem;
 }
 .social  :hover {
-  color: orange;
+  color: #B6D6D6;
 }
 .blog {
   font-size: 1.3rem;
