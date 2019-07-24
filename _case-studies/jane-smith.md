@@ -1,23 +1,20 @@
 ---
 layout: case-study-layout
-title: Female with back pain
+title: 29 Year Old Female with back pain
 condition: Back Pain
-banner-image: casestudy2.jpg
-image: /images/casestudy2.jpg
-<!-- excerpt_html: How a 72 year old lady overcame 1 year of back pain with GNM. -->
-patient-description_html: 2 year old Right handed female, presented with shoulder pain 1 year in duration.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-subjective-complaint_html: The patient presented with a stiff and sore low back. 1 year in duration. She described the following.
-objective-findings_html: Limited Range of motion in the lumbar spine Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-calibration_html: The patient was a 5/10 pain. This pain was elicited by flexing forward from the hip.
-explaination_html: This is where we describe the type of conflcit involved with this particular condition; including what muscels it is acting on etc. Multiple areas in here. a link to the learning GNM site.
-awareness_html: 2 weeks previously the client had an expereince where she watched her grandaughter fall off the swing (her DHS) she immediately felt bad and fely like it was her fault.
-associations_html: The client realised that every time she walked out into the garden where the swing set is her pain returned. She was asked to make the connection between her symptims and the trigger.
-perspective_html:  The client was asked to change her perspective on the whole situation. Lorem ipsum dolor sit amet.  
-results_html: The client realised was amazing. A follow up visit the following week showed how she no longer was havong any issues.
-credits_html: This is where I give credit to hamer and GNM and link to the website.
+banner-image: casestudy5.jpg
+image: /images/casestudy5.jpg
+patient-description_html: 29 year old right handed female.
+date_html: 28/6/2019
+subjective-complaint_html: The client presented with right sided low back pain and right sided middle back pain, approximately one week in duration. She appeared to be in significant pain, and had trouble sitting and moving from seated.
+objective-findings_html: Muscle tenderness and pain upon palpation was noted, the patient had limited and painful range of motion in both flexion and extension.
+explaination_html: A medium self-devaluation conflict affecting the right sided mid-back and lower back muscles relating to a ‘betrayal’ conflict, coupled with a ‘support’ conflict. The client is currently in a Phase - A of healing, it is important to bring awareness to the original conflict as well as identify and remove any tracks.
+organs_html: Right sided back muscles, erector spinae, multifidus. Embryonic Germ Layer. new mesoderm. Brain Control Center; cerebral medulla
 
+awareness_html: The client reported her symptoms started the day that she arrived to Bali on the first day of her vacation, she put it down to sitting on the plane. Upon questioning the patient revealed she had experienced an unexpected shock in relation to her work a week prior. In her position at work, she was told by her supervisor on numerous occasions how much they valued her and how important she is to the company but unfortunately they could not offer her a permanent position at the firm, as their budget would not allow for such a promotion. However, the company later hired two new employees which were taking her position (Her DHS). The client admitted it felt like a massive betrayal to be told they could not afford to give her a permanent position and then turn around and offer the position to two new people.  For her it was also a matter of not getting enough support from her supervisor who was responsible for the hiring of new employees. She mentioned that she was indeed worried about being able to support herself financially having not received a permanent position and needing to stay in the work environment despite wanting to move on. Once the client connected her emotional conflict to her physical symptoms she noticed an immediate shift in the pain levels, moving from a 5/10 with flexion to a 1/10.
 
-_comments:
-  - summary: this is blah
-  - note to self: Basically copy and past the green sections into a new .md file for each new case study and fill in the blanks.
+associations_html: The following day, the client reported that she felt great and was not in any more pain. However, two days later, the client got in contact with me explaining that she had been experiencing significant amounts of pain again, particularly in the middle of her back. She reported levels of 8/10 at their worse, the client reported a 4/10 pain level which had subsided after taking codeine. I gently reminded her of our discussion two days previously and questioned her as to what had reminder her of the original conflict. The client reported that day she received an email from her supervisor informing her of all the duties she needed to perform when she returned home from her Bali vacation (Her Track). She reported that reading this email made her realise she would have to return home and front up to the situation, and return to work in an environment she no longer wanted to be in, but needed to be for finances (support conflict) the thought of this brought her considerable stress and brought the original conflict to the forefront.
+
+results_html: After our first session with new awareness and understanding of her DHS and the associated healing symptoms the client noticed immediate improvements. In our subsequent consultation the client was asked to identify her tracks and become aware of any tracks or triggers if they occurred in the future. Above all the client was encouraged to look at the big picture and change her perspective surrounding the ‘betrayal and lack of support’. This was easy for her, as she felt like she was destined for bigger and better things in her line of work. In our second phone consultation the client's pain levels went from a 4/10 to 0. A follow up later that week revealed she had not had any pain return.
+
 ---

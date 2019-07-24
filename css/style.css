@@ -151,6 +151,21 @@ a {
   background-image: url(/images/header6.jpg);
   min-height: 90vh;
   background-attachment: fixed;
+  position: relative;
+  z-index: 5;
+}
+.sticky-nav {
+  padding:0;
+  position:fixed;
+  z-index: 5;
+  background-color: white;
+  width: 100%;
+  top:0;
+}
+.banner-home-1 {
+  background-image: url(/images/mobileheader.jpg);
+  min-height: 90vh;
+  background-attachment: fixed;
 }
 .banner-mobile {
   background-image: url(/images/placeholder1.jpg);
@@ -233,6 +248,23 @@ header nav .button {
   display: inline-block;
   vertical-align:top;
 }
+.text-bg {
+  background-color: white;
+  max-height: -0.5rem;
+  background-color: white;
+max-height: -0.5rem;
+/* height: 23px; */
+display: inline-block;
+line-height: 1;
+margin: 10px;
+width: auto;
+}
+
+header{
+  z-index: 6;
+  position: relative;
+}
+
 .index header {
   background-image: url(/images/header6.jpg);
   background-attachment: fixed;
@@ -366,6 +398,11 @@ h2.typing-heading {
 }
 .mobile-hide {
   display: none;
+}
+.banner-home {
+  background-image: url(/images/mobileheader.jpg);
+  /* min-height: 90vh;
+  background-attachment: fixed; */
 }
 .mobile-appear {
   display: block;

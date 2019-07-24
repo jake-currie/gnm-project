@@ -48,17 +48,44 @@
 
     </nav>
 
-    <nav class="mobile-nav">
-      <a href="/"> Home </a>
-      <a href="/about"> About Me </a>
-      <a href="/about-gnm"> About GNM </a>
-      <a href="/work-with-me"> Work With Me </a>
-      <a href="/case-studies"> Case Studies </a>
-      <!-- <a href="/conditions"> Conditions I work with </a> -->
-      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/findandseacreative/gnm-discovery-call'});return false;"> Book Consult </a>
-    </nav>
 
   </header>
+  <nav class="mobile-nav">
+    <a href="/"> Home </a>
+    <a href="/about"> About Me </a>
+    <a href="/about-gnm"> About GNM </a>
+    <a href="/work-with-me"> Work With Me </a>
+    <a href="/case-studies"> Case Studies </a>
+    <!-- <a href="/conditions"> Conditions I work with </a> -->
+    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/findandseacreative/gnm-discovery-call'});return false;"> Book Consult </a>
+  </nav>
+
+  <section class="grid-middle sticky-nav">
+    <div class='col-4_sm-6 logo padded-1'>
+      <a href="/">
+      <img src="/images/logo1.png">
+      </a>
+    </div>
+
+    <!-- hamburger menu -->
+    <nav class='col-8_sm-6-middle right'>
+
+    <span class="navbutton">
+
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/findandseacreative/gnm-discovery-call'});return false;" class='button-3 navbutton'> Free Consultation </a>
+    </span>
+
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        </div>
+
+    </nav>
+
+  </section>
   {{content}}
   <!-- FOOTER SECTION -->
   <footer class='footer-bg grid padded mobile-center'>

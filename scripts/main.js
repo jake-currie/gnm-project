@@ -16,4 +16,9 @@ var typed = new Typed('#typed', {
 	typeSpeed: 50
 });
 
+$(body).scroll(function(){
+  $(header).addClass("scrolled")
+}
+);
+
 }); // end document ready
