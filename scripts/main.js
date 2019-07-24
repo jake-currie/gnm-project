@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(".hamburger").click(function(){
 
     $('.hamburger').toggleClass('active');
-    $(".mobile-nav").fadeToggle();
+    $(".mobile-nav").slideToggle();
     });
 
     // This creates a new typing animation in vanilla javascript
@@ -16,9 +16,14 @@ var typed = new Typed('#typed', {
 	typeSpeed: 50
 });
 
-$(body).scroll(function(){
-  $(header).addClass("scrolled")
-}
-);
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll <= 10) {
+        $("header").removeClass("whitebg");
+    } else {
+        $("header").addClass("whitebg");
+    }
+});
 
 }); // end document ready

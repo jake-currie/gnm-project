@@ -89,7 +89,7 @@ color: white;}
   text-decoration: none;
   display: inline-block;
   padding: 1% 5%;
-  vertical-align:top;
+  /* vertical-align: top; */
 }
 .button-2:hover {
   border: 2px solid #B6D6D6;
@@ -149,7 +149,7 @@ a {
 }
 .banner-home {
   background-image: url(/images/header6.jpg);
-  min-height: 90vh;
+  min-height: 100vh;
   background-attachment: fixed;
   position: relative;
   z-index: 5;
@@ -187,6 +187,12 @@ a {
 }
 .logo {
   width:200px;
+  transition: 1s;
+}
+
+.whitebg .logo {
+  padding:.5rem 1rem;
+
 }
 
 /* Utility Classes */
@@ -232,16 +238,39 @@ a {
   display: block;
   padding: 0;
   border-radius: 2px;
+  transition: 1s;
 }
 .hamburger {
   display: inline-block;
   padding: 0.5rem;
   z-index: 2;
+  top: 8px;
   position: relative; /* adding this so we can use z-index */
 }
 
 .active .line {
-  border-color: white;
+  border-color: #FF8C28;
+}
+.line.top, .line.bottom {
+  position: absolute;
+}
+.line.top {
+  top: 0px;
+}
+.line.bottom {
+  bottom: 0px;
+}
+.active .line.top{
+  transform: rotateZ(45deg);
+  top:8px;
+}
+.active .line.bottom {
+  transform: rotateZ(-45deg);
+  bottom:8px;
+}
+.active .line.middle {
+border-color: rgba(0,0,0,0);
+background-color: rgba(0,0,0,0);
 }
 
 header nav .button {
@@ -262,16 +291,24 @@ width: auto;
 
 header{
   z-index: 6;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba (0,0,0,0);
+  transition:0.5s;
+}
+
+.whitebg {
+  background-color: white;
 }
 
 .index header {
-  background-image: url(/images/header6.jpg);
+  /* background-image: url(/images/header6.jpg); */
   background-attachment: fixed;
-  background-color: white;
+  /* background-color: white; */
   background-position: center;
   background-size: cover;
-  max-height: 80px;
+max-height: 80px;
 
 }
 /* TRANSPARENT BACKGROUND INFO .about is pulling from the front matter on the about.html. In order to create a transparent nav bar we need to add the background-image url to the cooresponding image on the about page. Or anyother page. eg. .work-with-me header{ background-image: url(............)}; */
@@ -285,11 +322,12 @@ header{
   background-color: rgb(60, 60, 60);
   padding:10%;
   display:none;
-  position: absolute;
+  position: fixed;
   top:0;
   left:0%;
-  bottom:0;
   right:0;
+  bottom:0;
+
 }
 .footer, a:hover {
   color: #B6D6D6;
@@ -297,7 +335,7 @@ header{
 
 .mobile-nav a{
   color:white;
-  padding:1rem;
+  padding:2vh 1rem;
   display:block;
   text-decoration: none;
   border-bottom: 1px solid white;
@@ -401,8 +439,6 @@ h2.typing-heading {
 }
 .banner-home {
   background-image: url(/images/mobileheader.jpg);
-  /* min-height: 90vh;
-  background-attachment: fixed; */
 }
 .mobile-appear {
   display: block;
