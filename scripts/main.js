@@ -16,9 +16,11 @@ var typed = new Typed('#typed', {
 	typeSpeed: 50
 });
 
+// Transition scroll bar
+
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-
+// 10 is the value of pixels in order to active this jq
     if (scroll <= 10) {
         $("header").removeClass("whitebg");
     } else {

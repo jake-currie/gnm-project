@@ -297,9 +297,13 @@ header{
   background-color: rgba (0,0,0,0);
   transition:0.5s;
 }
+.main {
+  margin-top:80px;
+}
 
 .whitebg {
   background-color: white;
+
 }
 
 .index header {
@@ -308,14 +312,18 @@ header{
   /* background-color: white; */
   background-position: center;
   background-size: cover;
-max-height: 80px;
-
+  max-height: 80px;
 }
+
+
+
 /* TRANSPARENT BACKGROUND INFO .about is pulling from the front matter on the about.html. In order to create a transparent nav bar we need to add the background-image url to the cooresponding image on the about page. Or anyother page. eg. .work-with-me header{ background-image: url(............)}; */
 .about header {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  max-height: 80px;
+  background-color: red;
 }
 
 .mobile-nav{
