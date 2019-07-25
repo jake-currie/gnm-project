@@ -169,7 +169,7 @@ a {
 }
 .banner-mobile {
   background-image: url(/images/placeholder1.jpg);
-  min-height: 90vh;
+  min-height: 100vh;
   background-attachment: fixed;
 }
 .banner{
@@ -232,13 +232,14 @@ a {
   display: none;
 }
 .line {
-  border: 1px solid black;
+  border: 1px solid rgb(60,60,60);
   width: 25px;
   margin: 5px;
   display: block;
   padding: 0;
   border-radius: 2px;
   transition: 1s;
+  background-color: rgb(60,60,60);
 }
 .hamburger {
   display: inline-block;
