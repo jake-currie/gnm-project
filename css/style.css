@@ -119,6 +119,12 @@ section{
   padding:5%;
 }
 
+.link{
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
 /* Typeography */
 body {
   font-family: nunito;
