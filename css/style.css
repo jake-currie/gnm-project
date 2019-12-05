@@ -127,9 +127,9 @@ section{
 
 /* Typeography */
 body {
-  font-family: nunito;
+  font-family: Roboto;
   font-weight:300;
-  letter-spacing: 1.5;
+  /* letter-spacing: 1.9; */
 }
  h2 {
   font-family: "Rockness";
@@ -147,6 +147,9 @@ a {
   font-family: nunito;
   font-weight:300;
   letter-spacing: 2;
+}
+.medium{
+  font-size: 1.2rem;
 }
 
 [class*=banner] {
