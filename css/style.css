@@ -489,6 +489,14 @@ h2.typing-heading {
 .heading-box {
   min-height: 400px;
 }
+.index header {
+  /* background-image: url(/images/header6.jpg); */
+  background-attachment: fixed;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  max-height: 80px;
+}
 .navbutton {
   display:none;
 }
@@ -496,7 +504,8 @@ h2.typing-heading {
   display: none;
 }
 .banner-home {
-  background-image: url(/images/mobileheader.jpg);
+  background-image: url(/images/jake-1.jpg);
+  color:white;
 }
 .mobile-appear {
   display: block;
