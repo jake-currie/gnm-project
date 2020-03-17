@@ -449,9 +449,9 @@ header a {
   top:-40px;
   transition: 1.5s;
 }
-.whitebg a{
-  color: rgb(60,60,60);
-}
+  /* .whitebg a{
+    color: rgb(60,60,60);
+  } */
 .whitebg .logo{
   max-width: 40%;
   transition: .5s;
