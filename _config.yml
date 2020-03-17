@@ -1,7 +1,0 @@
-collections:
-  case-studies:
-    output: true
-    permalink: /case-studies/:path
-  conditions:
-    output: true
-    permalink: /conditions/:path
