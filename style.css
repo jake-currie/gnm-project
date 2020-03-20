@@ -348,6 +348,34 @@ box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.27); */
 -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.27);
 box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.27); */
 }
+.button-2{
+  border: 1px solid #348EFE;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  background-color:#348EFE;
+  padding: 1% 2%;
+  white-space: nowrap;
+  /* font-size: 1rem; */
+  display: inline-block;
+  border-radius: 5px;
+  transition: 0.5s;
+
+}
+.button-2:hover{
+  border: 1px solid  #348EFE;
+  color: #348EFE;
+  text-decoration: none;
+  background-color: white;
+  padding: 1% 2%;
+  white-space: nowrap;
+  display: inline-block;
+  border-radius: 5px;
+  transition: 0.5s;
+  /* -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.27);
+-moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.27);
+box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.27); */
+}
 .pbutton{
   border: 2px solid #FF9F4D;
   color: white;
@@ -529,6 +557,9 @@ p {
   /* border-top: 1px solid white; */
   line-height: 1.5;
   padding: 12px 0;
+}
+.medtext {
+  font-size: 1.5rem;
 }
 .small {
   font-size: 1.0rem;
