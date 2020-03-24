@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 /* Gridlex Reset */
@@ -70,6 +70,10 @@ img {
 }
 .healimage{
 max-height:350px;
+}
+.healimage1{
+/* heigh: 100vh; */
+
 }
 
 .healimage:hover {
@@ -686,7 +690,7 @@ border-bottom: 1px solid white;
      display:none;
    }
    .desktop-show {
-     display:none;
+     display:block;
    }
    /* clickable boxes */
    .container {
@@ -919,5 +923,8 @@ li {
 .bg-image {
   background-position: cover;
   min-height:350px;
+}
+
+
 }
 }
