@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+
+  {{content}}
+  {% include site-footer2.html %}
+
+  <!-- Jquery  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-eEo+kC7ROjsA/3wA+Zf8m6X9H3raPZ7MJ/Rk9rBTKHM=" crossorigin="anonymous"></script>
+  <!-- Google analytics -->
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+
+  <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+61448631445", // WhatsApp number
+                facebook: "www.facebook.com/jake.c.currie", // Facebook Links
+                call_to_action: "Get In Touch", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+
+  <!-- Animation Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- This is the lazyload -->
+<script src="/scripts/lazysizes.min.js" async=""></script>
+
+  <script src="/scripts/main.js">
+  </script>
+
+</body>
+
+</html>
