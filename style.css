@@ -260,7 +260,7 @@ max-height:350px;
 
 }
 .banner3 {
-  background-image: url(/images/header6.jpg);
+  background-image: url(/images/jake4.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -525,7 +525,9 @@ h1{
   font-weight: 700;
 }
 .white-bg{
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  border: solid 5px white;
 }
 .grey {
   font-size: 2rem;
@@ -580,6 +582,10 @@ p {
   /* border-top: 1px solid white; */
   line-height: 1.5;
   padding: 12px 0;
+}
+.weight{
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .smaller1{
@@ -937,7 +943,7 @@ li {
   font-size: 1.8rem;
 }
 .banner3 {
-  background-image: url(/images/mobileheader.jpg);
+  /* background-image: url(/images/mobileheader.jpg); */
   height: 100vh;
   background-position: center;
   background-size: cover;
